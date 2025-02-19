@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "bestfishing-mod",
+	"version": "${version}",
+	"name": "BestFishing-Mod",
+	"description": "BestFishing",
+	"authors": [
+		"Thirdh6o"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bestfishing-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.hing.bestfishing.BestFishingMod"
+		],
+		"fabric-datagen": [
+			"com.hing.bestfishing.BestFishingModDataGenerator"
+		]
+	},
+	"mixins": [
+		"bestfishing-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
