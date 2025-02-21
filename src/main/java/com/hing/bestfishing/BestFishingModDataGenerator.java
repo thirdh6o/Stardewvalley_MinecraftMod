@@ -1,11 +1,8 @@
 package com.hing.bestfishing;
 
+import com.hing.bestfishing.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import com.hing.bestfishing.datagen.ModEnLangProvider;
-import com.hing.bestfishing.datagen.ModItemTagsProvider;
-import com.hing.bestfishing.datagen.ModLootTableProvider;
-import com.hing.bestfishing.datagen.ModZhLangProvider;
 
 public class BestFishingModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -17,5 +14,6 @@ public class BestFishingModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModEnLangProvider::new);
 		pack.addProvider(ModItemTagsProvider::new);
 		pack.addProvider(ModZhLangProvider::new);
+		pack.addProvider(ModModelsProvider::new);
 	}
 }

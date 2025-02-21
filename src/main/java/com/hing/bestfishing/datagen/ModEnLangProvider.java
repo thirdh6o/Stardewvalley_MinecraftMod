@@ -17,7 +17,8 @@ public class ModEnLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
 
-       // translationBuilder.add("itemGroup.tutorial_group2", "Tutorial Group2");
+        translationBuilder.add("itemGroup.bestfishing_group", "BestFishing Group");
+
 
     }
 }

@@ -1,0 +1,38 @@
+package com.hing.bestfishing.item;
+
+import com.hing.bestfishing.BestFishingMod;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
+
+public class ModItemGroups {
+
+    public static final RegistryKey<ItemGroup> BestFishing_GROUP = register("bestfishing_group");
+
+    private static RegistryKey<ItemGroup> register(String id) {
+        return RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(BestFishingMod.MOD_ID, id));
+    }
+
+
+    public static void registerModItemGroups() {
+        // 这里本来是不用写什么的，我们可以将注册语句写在这里
+        // 在原始注册语句中，我们可以看到一个Registry<ItemGroup>类型的registry，这个其实就是注册表类型，可直接调用原版注册表的东西
+        // 注册参数分别是注册表项、注册键、物品栏（其中物品栏创建参数可再分为物品栏位置、展示名字、图标文件、物品栏内容等，不要忘了最后的build）
+        Registry.register(
+                Registries.ITEM_GROUP,
+                BestFishing_GROUP,
+                ItemGroup.create(ItemGroup.Row.TOP, 7)
+                        .displayName(Text.translatable("itemGroup.bestfishing_group"))
+                        .icon(() -> new ItemStack(ModItems.HETUN))
+
+                        .entries((displayContext, entries) -> {
+
+                            entries.add(ModItems.HETUN);
+                        }).build());
+    }
+}
