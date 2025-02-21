@@ -7,6 +7,7 @@ public class ModLootTableProvider {
     public ModLootTableProvider(FabricDataOutput dataOutput) {
         super();
     }
+    //TODO: Add loot tables
 
 
 }

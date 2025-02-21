@@ -2,6 +2,7 @@ package com.hing.bestfishing.item;
 
 import com.hing.bestfishing.BestFishingMod;
 
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -14,8 +15,71 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
 
-
+    //食物注册
     public static final Item HETUN = registerItem("hetun", new Item(new Item.Settings().food(ModFoodComponents.HETUN)));
+    public static final Item TIYU = registerItem("tiyu", new Item(new Item.Settings().food(ModFoodComponents.TIYU)));
+    public static final Item JINQIANGYU = registerItem("jinqiangyu", new Item(new Item.Settings().food(ModFoodComponents.JINQIANGYU)));
+    public static final Item SHADINGYU = registerItem("shadingyu", new Item(new Item.Settings().food(ModFoodComponents.SHADINGYU)));
+    public static final Item CHOUYU = registerItem("chouyu", new Item(new Item.Settings().food(ModFoodComponents.CHOUYU)));
+    public static final Item DAZUILUYU = registerItem("dazuiluyu", new Item(new Item.Settings().food(ModFoodComponents.DAZUILUYU)));
+    public static final Item XIAOZUILUYU = registerItem("xiaozuiluyu", new Item(new Item.Settings().food(ModFoodComponents.XIAOZUILUYU)));
+    public static final Item HONGZUNYU = registerItem("hongzunyu", new Item(new Item.Settings().food(ModFoodComponents.HONGZUNYU)));
+    public static final Item GUIYU = registerItem("guiyu", new Item(new Item.Settings().food(ModFoodComponents.GUIYU)));
+    public static final Item DAYANYU = registerItem("dayanyu", new Item(new Item.Settings().food(ModFoodComponents.DAYANYU)));
+    public static final Item HELU = registerItem("helu", new Item(new Item.Settings().food(ModFoodComponents.HELU)));
+    public static final Item LIYU = registerItem("liyu", new Item(new Item.Settings().food(ModFoodComponents.LIYU)));
+    public static final Item NIANYU = registerItem("nianyu", new Item(new Item.Settings().food(ModFoodComponents.NIANYU)));
+    public static final Item GOUYU = registerItem("gouyu", new Item(new Item.Settings().food(ModFoodComponents.GOUYU)));
+    public static final Item TAIYANGYU = registerItem("taiyangyu", new Item(new Item.Settings().food(ModFoodComponents.TAIYANGYU)));
+    public static final Item HONGJIYU = registerItem("hongjiyu", new Item(new Item.Settings().food(ModFoodComponents.HONGJIYU)));
+    public static final Item FEIYU = registerItem("feiyu", new Item(new Item.Settings().food(ModFoodComponents.FEIYU)));
+    public static final Item MANYU = registerItem("manyu", new Item(new Item.Settings().food(ModFoodComponents.MANYU)));
+    public static final Item ZHANGYU = registerItem("zhangyu", new Item(new Item.Settings().food(ModFoodComponents.ZHANGYU)));
+    public static final Item HONGDIAOYU = registerItem("hongdiaoyu", new Item(new Item.Settings().food(ModFoodComponents.HONGDIAOYU)));
+    public static final Item YOUYU = registerItem("youyu", new Item(new Item.Settings().food(ModFoodComponents.YOUYU)));
+    public static final Item HAISHEN = registerItem("haishen", new Item(new Item.Settings().food(ModFoodComponents.HAISHEN)));
+    public static final Item DAHAISHEN = registerItem("dahaishen", new Item(new Item.Settings().food(ModFoodComponents.DAHAISHEN)));
+    public static final Item GUI3YU = registerItem("gui3yu", new Item(new Item.Settings().food(ModFoodComponents.GUI3YU)));
+    public static final Item SHIYU = registerItem("shiyu", new Item(new Item.Settings().food(ModFoodComponents.SHIYU)));
+    public static final Item BINGZHUYU = registerItem("bingzhuyu", new Item(new Item.Settings().food(ModFoodComponents.BINGZHUYU)));
+    public static final Item YANJIANGMANYU = registerItem("yanjiangmanyu", new Item(new Item.Settings().food(ModFoodComponents.YANJIANGMANYU)));
+    public static final Item SHAYU = registerItem("shayu", new Item(new Item.Settings().food(ModFoodComponents.SHAYU)));
+    public static final Item XIELIYU = registerItem("xieliyu", new Item(new Item.Settings().food(ModFoodComponents.XIELIYU)));
+    public static final Item BIMUYU = registerItem("bimuyu", new Item(new Item.Settings().food(ModFoodComponents.BIMUYU)));
+    public static final Item WUYELIYU = registerItem("wuyeliyu", new Item(new Item.Settings().food(ModFoodComponents.WUYELIYU)));
+    public static final Item XUNYU = registerItem("xunyu", new Item(new Item.Settings().food(ModFoodComponents.XUNYU)));
+    public static final Item HUWENZUNYU = registerItem("huwenzunyu", new Item(new Item.Settings().food(ModFoodComponents.HUWENZUNYU)));
+    public static final Item DATOUYU = registerItem("datouyu", new Item(new Item.Settings().food(ModFoodComponents.DATOUYU)));
+    public static final Item LUOFEIYU = registerItem("luofeiyu", new Item(new Item.Settings().food(ModFoodComponents.LUOFEIYU)));
+    public static final Item LIANYU = registerItem("lianyu", new Item(new Item.Settings().food(ModFoodComponents.LIANYU)));
+    public static final Item MAHAZHILI = registerItem("mahazhili", new Item(new Item.Settings().food(ModFoodComponents.MAHAZHILI)));
+    public static final Item QINGHUAYU = registerItem("qinghuayu", new Item(new Item.Settings().food(ModFoodComponents.QINGHUAYU)));
+    public static final Item XIFEI = registerItem("xifei", new Item(new Item.Settings().food(ModFoodComponents.XIFEI)));
+    public static final Item SHECHIDANXIANYU = registerItem("shechidanxianyu", new Item(new Item.Settings().food(ModFoodComponents.SHECHIDANXIANYU)));
+    public static final Item DABIMUYU = registerItem("dabimuyu", new Item(new Item.Settings().food(ModFoodComponents.DABIMUYU)));
+    public static final Item MUYUEYU = registerItem("muyueyu", new Item(new Item.Settings().food(ModFoodComponents.MUYUEYU)));
+    public static final Item XUKONGGUIYU = registerItem("xukongguiyu", new Item(new Item.Settings().food(ModFoodComponents.XUKONGGUIYU)));
+    public static final Item SHILAIMU = registerItem("shilaimu", new Item(new Item.Settings().food(ModFoodComponents.SHILAIMU)));
+    public static final Item HUANGDIAOYU = registerItem("huangdiaoyu", new Item(new Item.Settings().food(ModFoodComponents.HUANGDIAOYU)));
+    public static final Item SHIZIYU = registerItem("shiziyu", new Item(new Item.Settings().food(ModFoodComponents.SHIZIYU)));
+    public static final Item LANTIEBINGYU = registerItem("lantiebingyu", new Item(new Item.Settings().food(ModFoodComponents.LANTIEBINGYU)));
+    public static final Item XIAHUYU = registerItem("xiahuyu", new Item(new Item.Settings().food(ModFoodComponents.XIAHUYU)));
+    public static final Item WUYEYOUYU = registerItem("wuyeyouyu", new Item(new Item.Settings().food(ModFoodComponents.WUYEYOUYU)));
+    public static final Item YOULINGYU = registerItem("youlingyu", new Item(new Item.Settings().food(ModFoodComponents.YOULINGYU)));
+    public static final Item SHUIDIYU = registerItem("shuidiyu", new Item(new Item.Settings().food(ModFoodComponents.SHUIDIYU)));
+    public static final Item FEIHONGYU = registerItem("feihongyu", new Item(new Item.Settings().food(ModFoodComponents.FEIHONGYU)));
+    public static final Item ANKANGYU = registerItem("ankangyu", new Item(new Item.Settings().food(ModFoodComponents.ANKANGYU)));
+    public static final Item CHUANSHUOZHIYU = registerItem("chuanshuozhiyu", new Item(new Item.Settings().food(ModFoodComponents.CHUANSHUOZHIYU)));
+    public static final Item BINGCHUANYU = registerItem("bingchuanyu", new Item(new Item.Settings().food(ModFoodComponents.BINGCHUANYU)));
+    public static final Item BIANZHONGLIYU = registerItem("bianzhongliyu", new Item(new Item.Settings().food(ModFoodComponents.BIANZHONGLIYU)));
+    public static final Item FEIHONGYUZHIZI = registerItem("feihongyuzhizi", new Item(new Item.Settings().food(ModFoodComponents.FEIHONGYUZHIZI)));
+    public static final Item CIANKANGYU = registerItem("ciankangyu", new Item(new Item.Settings().food(ModFoodComponents.CIANKANGYU)));
+    public static final Item CHUANSHUOZHIYUERDAI = registerItem("chuanshuozhiyuerdai", new Item(new Item.Settings().food(ModFoodComponents.CHUANSHUOZHIYUERDAI)));
+    public static final Item XIAOBINGCHUANYU = registerItem("xiaobingchuanyu", new Item(new Item.Settings().food(ModFoodComponents.XIAOBINGCHUANYU)));
+    public static final Item FANGSHEXINGLIYU = registerItem("fangshexingliyu", new Item(new Item.Settings().food(ModFoodComponents.FANGSHEXINGLIYU)));
+
+
+
 
     public static Item registerItems(String id, Item item) {
         // 整合起来就一句话，当然这里的命名空间得改成你自己的
@@ -31,9 +95,12 @@ public class ModItems {
 
 
 
-   //private static void addItemToItemGroup1(FabricItemGroupEntries entries) {
-       // entries.add();
-  //  }
+   private static void addItemToItemGroup1(FabricItemGroupEntries entries) {
+        entries.add(HETUN);
+    }
+
+
+
    public static Item register(Identifier id, Item item) {
        return register(RegistryKey.of(Registries.ITEM.getKey(), id), item);
    }
@@ -60,7 +127,7 @@ public class ModItems {
 
 
         // 这里是加入原版物品栏的两个例子，模组自制物品栏在ModItemGroups中
-       // ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModItems::addItemToItemGroup1);
+       ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemToItemGroup1);
 
 
 

@@ -1,0 +1,18 @@
+{
+  "replace": true,
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "tag",
+          "name": "bestfishing-mod:mod_fish",
+          "expand": true
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}
