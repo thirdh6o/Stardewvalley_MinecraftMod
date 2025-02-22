@@ -13,6 +13,9 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
 
     public static final RegistryKey<ItemGroup> BestFishing_GROUP = register("bestfishing_group");
+    public static final RegistryKey<ItemGroup> FARM_GROUP = register("farm_group");
+    public static final RegistryKey<ItemGroup> COMBAT_GROUP = register("combat_group");
+
 
     private static RegistryKey<ItemGroup> register(String id) {
         return RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(BestFishingMod.MOD_ID, id));
@@ -94,5 +97,27 @@ public class ModItemGroups {
                             entries.add(ModItems.XIAOBINGCHUANYU);
                             entries.add(ModItems.FANGSHEXINGLIYU);
                         }).build());
+
+
+
+        Registry.register( Registries.ITEM_GROUP,
+                FARM_GROUP,
+                ItemGroup.create(ItemGroup.Row.BOTTOM, 7)
+                        .displayName(Text.translatable("itemGroup.farm_group"))
+                        .icon(() -> new ItemStack(ModItems.HETUN))
+                        .entries((displayContext, entries) -> {
+                            entries.add(ModItems.SHENGYUPIAN);
+                        }).build());
+
+
+        Registry.register( Registries.ITEM_GROUP,
+                COMBAT_GROUP,
+                ItemGroup.create(ItemGroup.Row.TOP, 8)
+                        .displayName(Text.translatable("itemGroup.combat_group"))
+                        .icon(() -> new ItemStack(ModItems.HETUN))
+                        .entries((displayContext, entries) -> {
+                            entries.add(ModItems.SHENGYUPIAN);
+                        }).build());
+
     }
 }

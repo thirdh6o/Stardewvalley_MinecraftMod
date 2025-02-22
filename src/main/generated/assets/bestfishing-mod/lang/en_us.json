@@ -41,6 +41,7 @@
   "item.bestfishing-mod.shadingyu": "Sandfish",
   "item.bestfishing-mod.shayu": "Shark",
   "item.bestfishing-mod.shechidanxianyu": "Shechidanxian Fish",
+  "item.bestfishing-mod.shengyupian": "Sashimi",
   "item.bestfishing-mod.shilaimu": "Shilaimu Fish",
   "item.bestfishing-mod.shiyu": "Stonefish",
   "item.bestfishing-mod.shiziyu": "Lionfish",
@@ -60,6 +61,6 @@
   "item.bestfishing-mod.youlingyu": "Ghostling Fish",
   "item.bestfishing-mod.youyu": "Cuttlefish",
   "item.bestfishing-mod.zhangyu": "Squid",
-  "item.bestfishing_group.shengyupian": "Sashimi",
-  "itemGroup.bestfishing_group": "BestFishing Group"
+  "itemGroup.bestfishing_group": "StardewValley Fishing Group",
+  "itemGroup.farm_group": "StardewValley Farming Group"
 }
