@@ -27,6 +27,18 @@ public class ModModelsProvider  extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.SHENGYUPIAN, Models.GENERATED);
 
+
+        //钓鱼垃圾
+        itemModelGenerator.register(ModItems.BROKEN_CD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BROKEN_GLASSES, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DRIFTWOOD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.JOJA_COLA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ROTTEN_PLANT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SOGGY_NEWSPAPER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TRASH, Models.GENERATED);
+
+
+
         //武器模型注册
         itemModelGenerator.register(ModItems.BONE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CLAYMORE, Models.HANDHELD);

@@ -96,6 +96,13 @@ public class ModItemGroups {
                             entries.add(ModItems.CHUANSHUOZHIYUERDAI);
                             entries.add(ModItems.XIAOBINGCHUANYU);
                             entries.add(ModItems.FANGSHEXINGLIYU);
+                            entries.add(ModItems.BROKEN_CD);
+                            entries.add(ModItems.BROKEN_GLASSES);
+                            entries.add(ModItems.DRIFTWOOD);
+                            entries.add(ModItems.JOJA_COLA);
+                            entries.add(ModItems.ROTTEN_PLANT);
+                            entries.add(ModItems.SOGGY_NEWSPAPER);
+                            entries.add(ModItems.TRASH);
                         }).build());
 
 

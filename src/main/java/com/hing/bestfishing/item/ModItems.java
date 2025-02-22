@@ -19,6 +19,25 @@ public class ModItems {
     public static final Item SHENGYUPIAN = registerItem("shengyupian", new Item(new Item.Settings().food(ModFoodComponents.SHENGYUPIAN)));
 
 
+    //钓鱼垃圾注册
+    public static final Item BROKEN_CD = registerItem("broken_cd", new Item(new Item.Settings()));
+    public static final Item BROKEN_GLASSES = registerItem("broken_glasses", new Item(new Item.Settings()));
+    public static final Item DRIFTWOOD = registerItem("driftwood", new Item(new Item.Settings()));
+    public static final Item JOJA_COLA = registerItem("joja_cola", new Item(new Item.Settings().food(ModFoodComponents.JOJACOLA)));
+    public static final Item ROTTEN_PLANT = registerItem("rotten_plant", new Item(new Item.Settings()));
+    public static final Item SOGGY_NEWSPAPER = registerItem("soggy_newspaper", new Item(new Item.Settings()));
+    public static final Item TRASH = registerItem("trash", new Item(new Item.Settings()));
+
+
+
+
+
+
+
+
+
+
+
 
 
 

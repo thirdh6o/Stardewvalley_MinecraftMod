@@ -49,6 +49,17 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.TEMPLARS_BLADE)
                 .add(ModItems.YETI_TOOTH);
 
+
+
+        getOrCreateTagBuilder(ModItemTags.JUNKS)
+                .add(ModItems.BROKEN_CD)
+                .add(ModItems.BROKEN_GLASSES)
+                .add(ModItems.DRIFTWOOD)
+                .add(ModItems.JOJA_COLA)
+                .add(ModItems.ROTTEN_PLANT)
+                .add(ModItems.SOGGY_NEWSPAPER)
+                .add(ModItems.TRASH);
+
         getOrCreateTagBuilder(ModItemTags.SUGAR_INGREDIENTS)
                 .add(Items.SUGAR);
         getOrCreateTagBuilder(ModItemTags.METAL)

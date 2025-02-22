@@ -49,6 +49,14 @@ public class ModEnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.TEMPERED_BROADSWORD, "Tempered Broadsword");
         translationBuilder.add(ModItems.TEMPLARS_BLADE, "Templar's Blade");
         translationBuilder.add(ModItems.YETI_TOOTH, "Yeti Tooth");
+        translationBuilder.add(ModItems.BROKEN_CD, "Broken CD");
+        translationBuilder.add(ModItems.BROKEN_GLASSES, "Broken Glasses");
+        translationBuilder.add(ModItems.DRIFTWOOD, "Driftwood");
+        translationBuilder.add(ModItems.JOJA_COLA, "Joja Cola");
+        translationBuilder.add(ModItems.ROTTEN_PLANT, "Rotten Plant");
+        translationBuilder.add(ModItems.SOGGY_NEWSPAPER, "Soggy Newspaper");
+        translationBuilder.add(ModItems.TRASH, "Trash");
+
 
 
 

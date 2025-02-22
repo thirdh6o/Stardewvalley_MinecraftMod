@@ -47,6 +47,14 @@ public class ModZhLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.TEMPERED_BROADSWORD, "调制大剑");
         translationBuilder.add(ModItems.TEMPLARS_BLADE, "圣剑");
         translationBuilder.add(ModItems.YETI_TOOTH, "雪怪之牙");
+        translationBuilder.add(ModItems.BROKEN_CD, "破损的CD");
+        translationBuilder.add(ModItems.BROKEN_GLASSES, "破损的眼镜");
+        translationBuilder.add(ModItems.DRIFTWOOD, "浮木");
+        translationBuilder.add(ModItems.JOJA_COLA, "Joja可乐");
+        translationBuilder.add(ModItems.ROTTEN_PLANT, "腐烂的植物");
+        translationBuilder.add(ModItems.SOGGY_NEWSPAPER, "湿透的报纸");
+        translationBuilder.add(ModItems.TRASH, "垃圾");
+
 
 
 

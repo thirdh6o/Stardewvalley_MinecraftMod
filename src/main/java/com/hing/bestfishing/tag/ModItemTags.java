@@ -19,6 +19,7 @@ public class ModItemTags {
     public static final TagKey<Item>  METAL = of("metal");
     public static final TagKey<Item>  MOD_FISH = of("mod_fish");
     public static final TagKey<Item>  SWORDS = of("swords");
+    public static final TagKey<Item> JUNKS = of("junks");
 
     // 注册方法，与方块的类似
     private static TagKey<Item> of(String id) {

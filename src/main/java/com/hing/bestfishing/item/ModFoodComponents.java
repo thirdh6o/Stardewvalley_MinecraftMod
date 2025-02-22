@@ -20,7 +20,11 @@ public class ModFoodComponents {
        关于饱和度，在Wiki上也有解释，饱和度是在消耗饥饿值之前被消耗的东西（最高不超过20），也就是当我们的饥饿值HUD跳动的时候，它就正在被消耗
        我们也可以在原版的HungerManager中看到其计算方法，即hunger * saturationModifier * 2.0F，拿金胡萝卜核算一下6*1.2*2.0=14.4，所以金胡萝卜的饱和度是14.4
      */
-
+    //JoJa可乐
+    public static final FoodComponent JOJACOLA = new FoodComponent.Builder()
+            .hunger(2).saturationModifier(0.5F)
+            .snack()
+            .build();
 
     public static  final FoodComponent SHENGYUPIAN = new FoodComponent.Builder()
             .hunger(4).saturationModifier(2.0F)
