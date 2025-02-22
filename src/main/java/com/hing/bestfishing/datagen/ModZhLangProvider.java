@@ -17,7 +17,39 @@ public class ModZhLangProvider extends FabricLanguageProvider {
         // Add translations for the item group
         translationBuilder.add("itemGroup.bestfishing_group", "星露谷物语钓鱼");
         translationBuilder.add("itemGroup.farm_group","星露谷物语种植");
+        translationBuilder.add("itemGroup.combat_group","星露谷物语战斗");
         translationBuilder.add(ModItems.SHENGYUPIAN, "生鱼片");
+        //SWORD
+        translationBuilder.add(ModItems.BONE_SWORD, "骨剑");
+        translationBuilder.add(ModItems.CLAYMORE, "大剑");
+        translationBuilder.add(ModItems.CUTLASS, "弯刀");
+        translationBuilder.add(ModItems.DARK_SWORD, "黑暗之剑");
+        translationBuilder.add(ModItems.DRAGONTOOTH_CUTLASS, "龙牙弯刀");
+        translationBuilder.add(ModItems.DWARF_SWORD, "矮人之剑");
+        translationBuilder.add(ModItems.FOREST_SWORD, "森林之剑");
+        translationBuilder.add(ModItems.GALAXY_SWORD, "银河之剑");
+        translationBuilder.add(ModItems.HALEYS_IRON, "海莉的烫发棒");
+        translationBuilder.add(ModItems.HOLY_BLADE, "圣光之刃");
+        translationBuilder.add(ModItems.INFINITY_BLADE, "无限之刃");
+        translationBuilder.add(ModItems.INSECT_HEAD, "昆虫头部");
+        translationBuilder.add(ModItems.IRON_EDGE, "铁刃");
+        translationBuilder.add(ModItems.LAVA_KATANA, "岩浆武士刀");
+        translationBuilder.add(ModItems.LEAHS_WHITTLER, "莉亚的刻刀");
+        translationBuilder.add(ModItems.MEOWMERE, "彩虹猫之刃");
+        translationBuilder.add(ModItems.NEPTUNES_GLAIVE, "海王之戟");
+        translationBuilder.add(ModItems.OBSIDIAN_EDGE, "黑曜刃");
+        translationBuilder.add(ModItems.OSSIFIED_BLADE, "化石之刃");
+        translationBuilder.add(ModItems.PIRATES_SWORD, "海盗之剑");
+        translationBuilder.add(ModItems.RUSTY_SWORD, "生锈之剑");
+        translationBuilder.add(ModItems.SILVER_SABER, "银色军刀");
+        translationBuilder.add(ModItems.STEEL_FALCHION, "钢铁弯刀");
+        translationBuilder.add(ModItems.STEEL_SMALLSWORD, "钢铁小剑");
+        translationBuilder.add(ModItems.TEMPERED_BROADSWORD, "调制大剑");
+        translationBuilder.add(ModItems.TEMPLARS_BLADE, "圣剑");
+        translationBuilder.add(ModItems.YETI_TOOTH, "雪怪之牙");
+
+
+
         // Add translations for each item
         translationBuilder.add(ModItems.HETUN, "河豚");
         translationBuilder.add(ModItems.TIYU, "鳀鱼");

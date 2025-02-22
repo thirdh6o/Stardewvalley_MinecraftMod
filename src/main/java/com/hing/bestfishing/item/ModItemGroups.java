@@ -114,9 +114,35 @@ public class ModItemGroups {
                 COMBAT_GROUP,
                 ItemGroup.create(ItemGroup.Row.TOP, 8)
                         .displayName(Text.translatable("itemGroup.combat_group"))
-                        .icon(() -> new ItemStack(ModItems.HETUN))
+                        .icon(() -> new ItemStack(ModItems.MEOWMERE))
                         .entries((displayContext, entries) -> {
-                            entries.add(ModItems.SHENGYUPIAN);
+                            entries.add(ModItems.BONE_SWORD);
+                            entries.add(ModItems.CLAYMORE);
+                            entries.add(ModItems.CUTLASS);
+                            entries.add(ModItems.DARK_SWORD);
+                            entries.add(ModItems.DRAGONTOOTH_CUTLASS);
+                            entries.add(ModItems.DWARF_SWORD);
+                            entries.add(ModItems.FOREST_SWORD);
+                            entries.add(ModItems.GALAXY_SWORD);
+                            entries.add(ModItems.HALEYS_IRON);
+                            entries.add(ModItems.HOLY_BLADE);
+                            entries.add(ModItems.INFINITY_BLADE);
+                            entries.add(ModItems.INSECT_HEAD);
+                            entries.add(ModItems.IRON_EDGE);
+                            entries.add(ModItems.LAVA_KATANA);
+                            entries.add(ModItems.LEAHS_WHITTLER);
+                            entries.add(ModItems.MEOWMERE);
+                            entries.add(ModItems.NEPTUNES_GLAIVE);
+                            entries.add(ModItems.OBSIDIAN_EDGE);
+                            entries.add(ModItems.OSSIFIED_BLADE);
+                            entries.add(ModItems.PIRATES_SWORD);
+                            entries.add(ModItems.RUSTY_SWORD);
+                            entries.add(ModItems.SILVER_SABER);
+                            entries.add(ModItems.STEEL_FALCHION);
+                            entries.add(ModItems.STEEL_SMALLSWORD);
+                            entries.add(ModItems.TEMPERED_BROADSWORD);
+                            entries.add(ModItems.TEMPLARS_BLADE);
+                            entries.add(ModItems.YETI_TOOTH);
                         }).build());
 
     }

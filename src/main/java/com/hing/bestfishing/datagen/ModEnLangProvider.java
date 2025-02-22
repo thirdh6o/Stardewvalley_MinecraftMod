@@ -19,7 +19,42 @@ public class ModEnLangProvider extends FabricLanguageProvider {
     public void generateTranslations(TranslationBuilder translationBuilder) {
         translationBuilder.add("itemGroup.bestfishing_group", "StardewValley Fishing Group");
         translationBuilder.add("itemGroup.farm_group","StardewValley Farming Group");
+        translationBuilder.add("itemGroup.combat_group","StardewValley Combat Group");
         translationBuilder.add(ModItems.SHENGYUPIAN, "Sashimi");
+        //Sword
+        translationBuilder.add(ModItems.BONE_SWORD, "Bone Sword");
+        translationBuilder.add(ModItems.CLAYMORE, "Claymore");
+        translationBuilder.add(ModItems.CUTLASS, "Cutlass");
+        translationBuilder.add(ModItems.DARK_SWORD, "Dark Sword");
+        translationBuilder.add(ModItems.DRAGONTOOTH_CUTLASS, "Dragontooth Cutlass");
+        translationBuilder.add(ModItems.DWARF_SWORD, "Dwarf Sword");
+        translationBuilder.add(ModItems.FOREST_SWORD, "Forest Sword");
+        translationBuilder.add(ModItems.GALAXY_SWORD, "Galaxy Sword");
+        translationBuilder.add(ModItems.HALEYS_IRON, "Haley's Iron");
+        translationBuilder.add(ModItems.HOLY_BLADE, "Holy Blade");
+        translationBuilder.add(ModItems.INFINITY_BLADE, "Infinity Blade");
+        translationBuilder.add(ModItems.INSECT_HEAD, "Insect Head");
+        translationBuilder.add(ModItems.IRON_EDGE, "Iron Edge");
+        translationBuilder.add(ModItems.LAVA_KATANA, "Lava Katana");
+        translationBuilder.add(ModItems.LEAHS_WHITTLER, "Leah's Whittler");
+        translationBuilder.add(ModItems.MEOWMERE, "Meowmere");
+        translationBuilder.add(ModItems.NEPTUNES_GLAIVE, "Neptune's Glaive");
+        translationBuilder.add(ModItems.OBSIDIAN_EDGE, "Obsidian Edge");
+        translationBuilder.add(ModItems.OSSIFIED_BLADE, "Ossified Blade");
+        translationBuilder.add(ModItems.PIRATES_SWORD, "Pirate's Sword");
+        translationBuilder.add(ModItems.RUSTY_SWORD, "Rusty Sword");
+        translationBuilder.add(ModItems.SILVER_SABER, "Silver Saber");
+        translationBuilder.add(ModItems.STEEL_FALCHION, "Steel Falchion");
+        translationBuilder.add(ModItems.STEEL_SMALLSWORD, "Steel Smallsword");
+        translationBuilder.add(ModItems.TEMPERED_BROADSWORD, "Tempered Broadsword");
+        translationBuilder.add(ModItems.TEMPLARS_BLADE, "Templar's Blade");
+        translationBuilder.add(ModItems.YETI_TOOTH, "Yeti Tooth");
+
+
+
+
+
+
         // Add translations for each item
         translationBuilder.add(ModItems.HETUN, "Pufferfish");
         translationBuilder.add(ModItems.TIYU, "Carp");

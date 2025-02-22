@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -21,8 +22,37 @@ public class ModItems {
 
 
 
-
-
+    //武器注册
+    //该物品为隐藏物品，用于模组剑类武器的注册，无贴图也不显示在物品栏中，匕首类武器的注册在下
+    public  static final Item BASIC_SWORD = registerItem("basic_sword", new Item(new Item.Settings()));
+    //正式注册
+    public static final Item BONE_SWORD = registerItems("bone_sword", new SwordItem(ModToolMaterials.BASIC_SWORD, 3, -2.0f, new Item.Settings()));
+    public static final Item CLAYMORE = registerItems("claymore", new SwordItem(ModToolMaterials.BASIC_SWORD, 2, -2.0f, new Item.Settings()));
+    public static final Item CUTLASS = registerItems("cutlass", new SwordItem(ModToolMaterials.BASIC_SWORD, 2, -2.0f, new Item.Settings()));
+    public static final Item DARK_SWORD = registerItems("dark_sword", new SwordItem(ModToolMaterials.BASIC_SWORD, 4, -2.0f, new Item.Settings()));
+    public static final Item DRAGONTOOTH_CUTLASS = registerItems("dragontooth_cutlass", new SwordItem(ModToolMaterials.BASIC_SWORD, 9, -2.0f, new Item.Settings()));
+    public static final Item DWARF_SWORD = registerItems("dwarf_sword", new SwordItem(ModToolMaterials.BASIC_SWORD, 7, -2.0f, new Item.Settings()));
+    public static final Item FOREST_SWORD = registerItems("forest_sword", new SwordItem(ModToolMaterials.BASIC_SWORD, 2, -2.0f, new Item.Settings()));
+    public static final Item GALAXY_SWORD = registerItems("galaxy_sword", new SwordItem(ModToolMaterials.BASIC_SWORD, 8, -2.0f, new Item.Settings()));
+    public static final Item HALEYS_IRON = registerItems("haleys_iron", new SwordItem(ModToolMaterials.BASIC_SWORD, 5, -2.0f, new Item.Settings()));
+    public static final Item HOLY_BLADE = registerItems("holy_blade", new SwordItem(ModToolMaterials.BASIC_SWORD, 3, -2.0f, new Item.Settings()));
+    public static final Item INFINITY_BLADE = registerItems("infinity_blade", new SwordItem(ModToolMaterials.BASIC_SWORD, 10, -2.0f, new Item.Settings()));
+    public static final Item INSECT_HEAD = registerItems("insect_head", new SwordItem(ModToolMaterials.BASIC_SWORD, 3, -2.0f, new Item.Settings()));
+    public static final Item IRON_EDGE = registerItems("iron_edge", new SwordItem(ModToolMaterials.BASIC_SWORD, 2, -2.0f, new Item.Settings()));
+    public static final Item LAVA_KATANA = registerItems("lava_katana", new SwordItem(ModToolMaterials.BASIC_SWORD, 7, -2.0f, new Item.Settings().fireproof()));
+    public static final Item LEAHS_WHITTLER = registerItems("leahs_whittler", new SwordItem(ModToolMaterials.BASIC_SWORD, 5, -2.0f, new Item.Settings()));
+    public static final Item MEOWMERE = registerItems("meowmere", new SwordItem(ModToolMaterials.BASIC_SWORD, 10, -2.0f, new Item.Settings()));
+    public static final Item NEPTUNES_GLAIVE = registerItems("neptunes_glaive", new SwordItem(ModToolMaterials.BASIC_SWORD, 3, -2.0f, new Item.Settings()));
+    public static final Item OBSIDIAN_EDGE = registerItems("obsidian_edge", new SwordItem(ModToolMaterials.BASIC_SWORD, 5, -2.0f, new Item.Settings()));
+    public static final Item OSSIFIED_BLADE = registerItems("ossified_blade", new SwordItem(ModToolMaterials.BASIC_SWORD, 4, -2.0f, new Item.Settings()));
+    public static final Item PIRATES_SWORD = registerItems("pirates_sword", new SwordItem(ModToolMaterials.BASIC_SWORD, 1, -2.0f, new Item.Settings()));
+    public static final Item RUSTY_SWORD = registerItems("rusty_sword", new SwordItem(ModToolMaterials.BASIC_SWORD, 0, -2.0f, new Item.Settings()));
+    public static final Item SILVER_SABER = registerItems("silver_saber", new SwordItem(ModToolMaterials.BASIC_SWORD, 1, -2.0f, new Item.Settings()));
+    public static final Item STEEL_FALCHION = registerItems("steel_falchion", new SwordItem(ModToolMaterials.BASIC_SWORD, 2, -2.0f, new Item.Settings()));
+    public static final Item STEEL_SMALLSWORD = registerItems("steel_smallsword", new SwordItem(ModToolMaterials.BASIC_SWORD, 0, -2.0f, new Item.Settings()));
+    public static final Item TEMPERED_BROADSWORD = registerItems("tempered_broadsword", new SwordItem(ModToolMaterials.BASIC_SWORD, 4, -2.0f, new Item.Settings()));
+    public static final Item TEMPLARS_BLADE = registerItems("templars_blade", new SwordItem(ModToolMaterials.BASIC_SWORD, 3, -2.0f, new Item.Settings()));
+    public static final Item YETI_TOOTH = registerItems("yeti_tooth", new SwordItem(ModToolMaterials.BASIC_SWORD, 4, -2.0f, new Item.Settings()));
 
 
 

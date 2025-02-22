@@ -18,6 +18,37 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
+
+
+        getOrCreateTagBuilder(ModItemTags.SWORDS)
+                .add(ModItems.BONE_SWORD)
+                .add(ModItems.CLAYMORE)
+                .add(ModItems.CUTLASS)
+                .add(ModItems.DARK_SWORD)
+                .add(ModItems.DRAGONTOOTH_CUTLASS)
+                .add(ModItems.DWARF_SWORD)
+                .add(ModItems.FOREST_SWORD)
+                .add(ModItems.GALAXY_SWORD)
+                .add(ModItems.HALEYS_IRON)
+                .add(ModItems.HOLY_BLADE)
+                .add(ModItems.INFINITY_BLADE)
+                .add(ModItems.INSECT_HEAD)
+                .add(ModItems.IRON_EDGE)
+                .add(ModItems.LAVA_KATANA)
+                .add(ModItems.LEAHS_WHITTLER)
+                .add(ModItems.MEOWMERE)
+                .add(ModItems.NEPTUNES_GLAIVE)
+                .add(ModItems.OBSIDIAN_EDGE)
+                .add(ModItems.OSSIFIED_BLADE)
+                .add(ModItems.PIRATES_SWORD)
+                .add(ModItems.RUSTY_SWORD)
+                .add(ModItems.SILVER_SABER)
+                .add(ModItems.STEEL_FALCHION)
+                .add(ModItems.STEEL_SMALLSWORD)
+                .add(ModItems.TEMPERED_BROADSWORD)
+                .add(ModItems.TEMPLARS_BLADE)
+                .add(ModItems.YETI_TOOTH);
+
         getOrCreateTagBuilder(ModItemTags.SUGAR_INGREDIENTS)
                 .add(Items.SUGAR);
         getOrCreateTagBuilder(ModItemTags.METAL)

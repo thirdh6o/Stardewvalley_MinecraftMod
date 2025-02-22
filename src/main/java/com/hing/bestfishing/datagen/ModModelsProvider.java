@@ -27,6 +27,34 @@ public class ModModelsProvider  extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.SHENGYUPIAN, Models.GENERATED);
 
+        //武器模型注册
+        itemModelGenerator.register(ModItems.BONE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CLAYMORE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CUTLASS, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DARK_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DRAGONTOOTH_CUTLASS, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.FOREST_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GALAXY_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HALEYS_IRON, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HOLY_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.INFINITY_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.INSECT_HEAD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRON_EDGE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LAVA_KATANA, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LEAHS_WHITTLER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MEOWMERE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NEPTUNES_GLAIVE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_EDGE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OSSIFIED_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PIRATES_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUSTY_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVER_SABER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_FALCHION, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_SMALLSWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TEMPERED_BROADSWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TEMPLARS_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.YETI_TOOTH, Models.HANDHELD);
 
 
 
