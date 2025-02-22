@@ -31,6 +31,7 @@ public class ModItemGroups {
                         .icon(() -> new ItemStack(ModItems.HETUN))
 
                         .entries((displayContext, entries) -> {
+                            entries.add(ModItems.SHENGYUPIAN);
                             entries.add(ModItems.HETUN);
                             entries.add(ModItems.TIYU);
                             entries.add(ModItems.JINQIANGYU);

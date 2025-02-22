@@ -14,8 +14,23 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+    //生鱼片注册（加工产品）
+    public static final Item SHENGYUPIAN = registerItem("shengyupian", new Item(new Item.Settings().food(ModFoodComponents.SHENGYUPIAN)));
 
-    //食物注册
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //鱼类注册（钓鱼所得）
     public static final Item HETUN = registerItem("hetun", new Item(new Item.Settings().food(ModFoodComponents.HETUN)));
     public static final Item TIYU = registerItem("tiyu", new Item(new Item.Settings().food(ModFoodComponents.TIYU)));
     public static final Item JINQIANGYU = registerItem("jinqiangyu", new Item(new Item.Settings().food(ModFoodComponents.JINQIANGYU)));

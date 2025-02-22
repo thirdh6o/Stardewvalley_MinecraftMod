@@ -18,7 +18,7 @@ public class ModEnLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
         translationBuilder.add("itemGroup.bestfishing_group", "BestFishing Group");
-
+        translationBuilder.add("item.bestfishing_group.shengyupian", "Sashimi");
         // Add translations for each item
         translationBuilder.add(ModItems.HETUN, "Pufferfish");
         translationBuilder.add(ModItems.TIYU, "Carp");

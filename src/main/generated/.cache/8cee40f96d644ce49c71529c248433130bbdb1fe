@@ -1,10 +1,10 @@
-// 1.20	2025-02-21T16:43:27.7538648	BestFishing-Mod/Model Definitions
+// 1.20	2025-02-22T14:07:29.4700679	BestFishing-Mod/Model Definitions
 2367b2d6374acbbd707ef26e378ad6b3b5b3bf9e assets\bestfishing-mod\models\item\shiyu.json
 f3767011edc0c29288c2cd037fc79c0a40ca4636 assets\bestfishing-mod\models\item\xiaozuiluyu.json
 1822b72b9e3071f957e41bc22e6708c02e72b4f0 assets\bestfishing-mod\models\item\lantiebingyu.json
 92cdcbd647affa393722835dfdc6965347d7cc01 assets\bestfishing-mod\models\item\jinqiangyu.json
-726a437c9925326a180b88dd88bef368247fd817 assets\bestfishing-mod\models\item\liyu.json
 ddfba6cad2ec36cdfc48d1b15784b9a7f8a0d1f8 assets\bestfishing-mod\models\item\dazuiluyu.json
+726a437c9925326a180b88dd88bef368247fd817 assets\bestfishing-mod\models\item\liyu.json
 b633ec95fa864421571b22262d19f79cbbdad19a assets\bestfishing-mod\models\item\shuidiyu.json
 574e8e96f5141a2fb102af30830acbe11b388c14 assets\bestfishing-mod\models\item\nianyu.json
 14a8864c485408f2cd024fa606f82aa680b0d9b8 assets\bestfishing-mod\models\item\bingzhuyu.json
@@ -27,8 +27,8 @@ e9bdf31e3131829cd9723e9c481229a755cf0b81 assets\bestfishing-mod\models\item\helu
 d4ddb0dd38d19c9c2924f717587808bf1770c68b assets\bestfishing-mod\models\item\dayanyu.json
 5669f196eab3ea723d2390bf1ce11a1c9b40d68c assets\bestfishing-mod\models\item\xifei.json
 81e4d80f41fd9c27f14710e87e8f15fd8f644866 assets\bestfishing-mod\models\item\feihongyu.json
-cf85c3e9a04b0d5f4c939f989992fa3262aed02a assets\bestfishing-mod\models\item\taiyangyu.json
 49546aaeaed1998cf01fc644d8e7bda78342ea56 assets\bestfishing-mod\models\item\zhangyu.json
+cf85c3e9a04b0d5f4c939f989992fa3262aed02a assets\bestfishing-mod\models\item\taiyangyu.json
 7dae90c0d2b3d50adce111fd614a73333252c260 assets\bestfishing-mod\models\item\feihongyuzhizi.json
 7fa3a9ce326df5d3270d243316f807a4a9a957b3 assets\bestfishing-mod\models\item\gui3yu.json
 c60a54eb4bc6248b2b3227550df5ed786a7811ce assets\bestfishing-mod\models\item\shayu.json
@@ -59,4 +59,5 @@ edf159c6ac7bf6090b90dc78e70cd2262ecbcbee assets\bestfishing-mod\models\item\daha
 34baa0bc9ff86cc92898e79071f87c2bfdd5a7dd assets\bestfishing-mod\models\item\chuanshuozhiyu.json
 782df8c2eb2bd5848210d42d2b28620ea99cb7c0 assets\bestfishing-mod\models\item\haishen.json
 d6be042ea4a51c5aa96fa3964d45bb38483443f0 assets\bestfishing-mod\models\item\yanjiangmanyu.json
+4111ec903fbbb9ba1834c7730060479535698fad assets\bestfishing-mod\models\item\shengyupian.json
 ef38d8682c271b0aa26770adc8c08cd5faf3da4b assets\bestfishing-mod\models\item\xukongguiyu.json

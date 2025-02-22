@@ -25,6 +25,12 @@ public class ModModelsProvider  extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.SHENGYUPIAN, Models.GENERATED);
+
+
+
+
+
         // 这个方法下写我们的物品，它生成我们的物品模型文件
         itemModelGenerator.register(ModItems.HETUN, Models.GENERATED);
         // 利用register方法注册我们的物品，并指定它的模型类

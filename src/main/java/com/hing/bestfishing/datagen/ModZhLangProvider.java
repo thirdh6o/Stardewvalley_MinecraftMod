@@ -16,7 +16,7 @@ public class ModZhLangProvider extends FabricLanguageProvider {
     public void generateTranslations(TranslationBuilder translationBuilder) {
         // Add translations for the item group
         translationBuilder.add("itemGroup.bestfishing_group", "最佳钓鱼模组");
-
+        translationBuilder.add(ModItems.SHENGYUPIAN, "生鱼片");
         // Add translations for each item
         translationBuilder.add(ModItems.HETUN, "河豚");
         translationBuilder.add(ModItems.TIYU, "鳀鱼");
