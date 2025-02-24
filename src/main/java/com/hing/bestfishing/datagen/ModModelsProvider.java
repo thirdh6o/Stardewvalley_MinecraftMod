@@ -1,12 +1,15 @@
 package com.hing.bestfishing.datagen;
 
+import com.hing.bestfishing.block.ModBlocks;
 import com.hing.bestfishing.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.data.family.BlockFamily;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.state.property.Properties;
 
 public class ModModelsProvider  extends FabricModelProvider {
 
@@ -20,12 +23,26 @@ public class ModModelsProvider  extends FabricModelProvider {
 
         // 我们之前写的方块是cube all的，那么这里我们就可以采用registerSimpleCubeAll方法来生成我们的方块模型文件
 //        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ICE_ETHER_BLOCK);
+
+
+        /* 参考原版代码编写同类型方块的数据生成
+           其中的registerCubeAllModelTexturePool方法获取的是基础方块的材质
+           并将其作为同家族中所有方块的材质
+         */
+
+        // 作物的模型文件需要罗列出其所有的生长阶段
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
     }
 
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.SHENGYUPIAN, Models.GENERATED);
+
+        //农作物模型
+        itemModelGenerator.register(ModItems.CAULIFLOWER_SEEDS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
+
 
 
         //钓鱼垃圾

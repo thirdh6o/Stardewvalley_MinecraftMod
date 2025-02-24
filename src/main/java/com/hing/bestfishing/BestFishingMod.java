@@ -1,5 +1,6 @@
 package com.hing.bestfishing;
 
+import com.hing.bestfishing.block.ModBlocks;
 import com.hing.bestfishing.item.ModItemGroups;
 import com.hing.bestfishing.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -22,6 +23,7 @@ public class BestFishingMod implements ModInitializer {
 		// Proceed with mild caution.
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

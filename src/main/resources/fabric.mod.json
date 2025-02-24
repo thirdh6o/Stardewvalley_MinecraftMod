@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.hing.bestfishing.BestFishingModDataGenerator"
+		],
+		"client": [
+			"com.hing.bestfishing.BestFishingModClient"
 		]
 	},
 	"mixins": [

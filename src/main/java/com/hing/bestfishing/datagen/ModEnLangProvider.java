@@ -1,6 +1,7 @@
 package com.hing.bestfishing.datagen;
 
 
+import com.hing.bestfishing.block.ModBlocks;
 import com.hing.bestfishing.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
@@ -21,6 +22,23 @@ public class ModEnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.farm_group","StardewValley Farming Group");
         translationBuilder.add("itemGroup.combat_group","StardewValley Combat Group");
         translationBuilder.add(ModItems.SHENGYUPIAN, "Sashimi");
+
+
+        //种植
+        translationBuilder.add(ModItems.CAULIFLOWER_SEEDS, "Cauliflower Seeds");
+        translationBuilder.add(ModItems.CAULIFLOWER, "Cauliflower");
+        translationBuilder.add(ModBlocks.CAULIFLOWER, "Cauliflower");
+
+
+
+
+
+
+
+
+
+
+
         //Sword
         translationBuilder.add(ModItems.BONE_SWORD, "Bone Sword");
         translationBuilder.add(ModItems.CLAYMORE, "Claymore");

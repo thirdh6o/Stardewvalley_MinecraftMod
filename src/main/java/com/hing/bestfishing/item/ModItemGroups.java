@@ -111,9 +111,10 @@ public class ModItemGroups {
                 FARM_GROUP,
                 ItemGroup.create(ItemGroup.Row.BOTTOM, 7)
                         .displayName(Text.translatable("itemGroup.farm_group"))
-                        .icon(() -> new ItemStack(ModItems.HETUN))
+                        .icon(() -> new ItemStack(ModItems.CAULIFLOWER_SEEDS))
                         .entries((displayContext, entries) -> {
-                            entries.add(ModItems.SHENGYUPIAN);
+                            entries.add(ModItems.CAULIFLOWER_SEEDS);
+                            entries.add(ModItems.CAULIFLOWER);
                         }).build());
 
 

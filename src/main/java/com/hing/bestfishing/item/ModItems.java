@@ -2,12 +2,10 @@ package com.hing.bestfishing.item;
 
 import com.hing.bestfishing.BestFishingMod;
 
+import com.hing.bestfishing.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -17,6 +15,27 @@ public class ModItems {
 
     //生鱼片注册（加工产品）
     public static final Item SHENGYUPIAN = registerItem("shengyupian", new Item(new Item.Settings().food(ModFoodComponents.SHENGYUPIAN)));
+
+
+
+    //农作物以及种子
+    public static final Item CAULIFLOWER_SEEDS = registerItems("cauliflower_seeds",
+            new AliasedBlockItem(ModBlocks.CAULIFLOWER, new Item.Settings()));
+    public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     //钓鱼垃圾注册

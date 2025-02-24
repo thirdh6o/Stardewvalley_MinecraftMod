@@ -1,5 +1,6 @@
 package com.hing.bestfishing.datagen;
 
+import com.hing.bestfishing.block.ModBlocks;
 import com.hing.bestfishing.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
@@ -19,6 +20,28 @@ public class ModZhLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.farm_group","星露谷物语种植");
         translationBuilder.add("itemGroup.combat_group","星露谷物语战斗");
         translationBuilder.add(ModItems.SHENGYUPIAN, "生鱼片");
+
+        //种植
+        translationBuilder.add(ModItems.CAULIFLOWER, "花椰菜");
+        translationBuilder.add(ModItems.CAULIFLOWER_SEEDS, "花椰菜种子");
+        translationBuilder.add(ModBlocks.CAULIFLOWER, "花椰菜");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         //SWORD
         translationBuilder.add(ModItems.BONE_SWORD, "骨剑");
         translationBuilder.add(ModItems.CLAYMORE, "大剑");
