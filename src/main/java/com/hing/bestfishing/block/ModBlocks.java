@@ -187,7 +187,7 @@ public class ModBlocks {
             new Rare_Block(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block TURNIP = Registry.register(Registries.BLOCK,
-            new Identifier(BestFishingMod.MOD_ID, "turnip"),
+            new Identifier(BestFishingMod.MOD_ID, "tulip"),
             new Tulip_Block(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block TARO = Registry.register(Registries.BLOCK,
