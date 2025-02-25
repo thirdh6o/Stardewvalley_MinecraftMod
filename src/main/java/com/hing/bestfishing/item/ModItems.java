@@ -23,6 +23,203 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.CAULIFLOWER, new Item.Settings()));
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
 
+    //农作物以及种子
+    public static final Item AMARANTH_SEEDS = registerItems("amaranth_seeds",
+            new AliasedBlockItem(ModBlocks.AMARANTH, new Item.Settings()));
+    public static final Item AMARANTH = registerItem("amaranth", new Item(new Item.Settings().food(ModFoodComponents.AMARANTH)));
+
+    public static final Item ANCIENT_FRUIT_SEEDS = registerItems("ancient_fruit_seeds",
+            new AliasedBlockItem(ModBlocks.ANCIENT_FRUIT, new Item.Settings()));
+    public static final Item ANCIENT_FRUIT = registerItem("ancient_fruit", new Item(new Item.Settings().food(ModFoodComponents.ANCIENT_FRUIT)));
+
+    public static final Item ARTICHOKE_SEEDS = registerItems("artichoke_seeds",
+            new AliasedBlockItem(ModBlocks.ARTICHOKE, new Item.Settings()));
+    public static final Item ARTICHOKE = registerItem("artichoke", new Item(new Item.Settings().food(ModFoodComponents.ARTICHOKE)));
+
+    public static final Item BEET_SEEDS = registerItems("beet_seeds",
+            new AliasedBlockItem(ModBlocks.BEET, new Item.Settings()));
+    public static final Item BEET = registerItem("beet", new Item(new Item.Settings().food(ModFoodComponents.BEET)));
+
+    public static final Item BLUEBERRY_SEEDS = registerItems("blueberry_seeds",
+            new AliasedBlockItem(ModBlocks.BLUEBERRY, new Item.Settings()));
+    public static final Item BLUEBERRY = registerItem("blueberry", new Item(new Item.Settings().food(ModFoodComponents.BLUEBERRY)));
+
+    public static final Item BLUE_JAZZ_SEEDS = registerItems("blue_jazz_seeds",
+            new AliasedBlockItem(ModBlocks.BLUE_JAZZ, new Item.Settings()));
+    public static final Item BLUE_JAZZ = registerItem("blue_jazz", new Item(new Item.Settings().food(ModFoodComponents.BLUE_JAZZ)));
+
+    public static final Item BOK_CHOY_SEEDS = registerItems("bok_choy_seeds",
+            new AliasedBlockItem(ModBlocks.BOK_CHOY, new Item.Settings()));
+    public static final Item BOK_CHOY = registerItem("bok_choy", new Item(new Item.Settings().food(ModFoodComponents.BOK_CHOY)));
+
+    public static final Item BROCCOLI_SEEDS = registerItems("broccoli_seeds",
+            new AliasedBlockItem(ModBlocks.BROCCOLI, new Item.Settings()));
+    public static final Item BROCCOLI = registerItem("broccoli", new Item(new Item.Settings().food(ModFoodComponents.BROCCOLI)));
+
+    public static final Item CACTUS_FRUIT_SEEDS = registerItems("cactus_fruit_seeds",
+            new AliasedBlockItem(ModBlocks.CACTUS_FRUIT, new Item.Settings()));
+    public static final Item CACTUS_FRUIT = registerItem("cactus_fruit", new Item(new Item.Settings().food(ModFoodComponents.CACTUS_FRUIT)));
+
+    public static final Item CARROT_SEEDS = registerItems("carrot_seeds",
+            new AliasedBlockItem(ModBlocks.CARROT, new Item.Settings()));
+    public static final Item CARROT = registerItem("carrot", new Item(new Item.Settings().food(ModFoodComponents.CARROT)));
+
+    public static final Item CORN_SEEDS = registerItems("corn_seeds",
+            new AliasedBlockItem(ModBlocks.CORN, new Item.Settings()));
+    public static final Item CORN = registerItem("corn", new Item(new Item.Settings().food(ModFoodComponents.CORN)));
+
+    public static final Item CRANBERRIES_SEEDS = registerItems("cranberries_seeds",
+            new AliasedBlockItem(ModBlocks.CRANBERRIES, new Item.Settings()));
+    public static final Item CRANBERRIES = registerItem("cranberries", new Item(new Item.Settings().food(ModFoodComponents.CRANBERRIES)));
+
+    public static final Item EGGPLANT_SEEDS = registerItems("eggplant_seeds",
+            new AliasedBlockItem(ModBlocks.EGGPLANT, new Item.Settings()));
+    public static final Item EGGPLANT = registerItem("eggplant", new Item(new Item.Settings().food(ModFoodComponents.EGGPLANT)));
+
+    public static final Item FAIRY_ROSE_SEEDS = registerItems("fairy_rose_seeds",
+            new AliasedBlockItem(ModBlocks.FAIRY_ROSE, new Item.Settings()));
+    public static final Item FAIRY_ROSE = registerItem("fairy_rose", new Item(new Item.Settings().food(ModFoodComponents.FAIRY_ROSE)));
+
+    public static final Item FIBER_SEEDS = registerItems("fiber_seeds",
+            new AliasedBlockItem(ModBlocks.FIBER, new Item.Settings()));
+    public static final Item FIBER = registerItem("fiber", new Item(new Item.Settings().food(ModFoodComponents.FIBER)));
+
+    public static final Item GARLIC_SEEDS = registerItems("garlic_seeds",
+            new AliasedBlockItem(ModBlocks.GARLIC, new Item.Settings()));
+    public static final Item GARLIC = registerItem("garlic", new Item(new Item.Settings().food(ModFoodComponents.GARLIC)));
+
+    public static final Item GRAPE_SEEDS = registerItems("grape_seeds",
+            new AliasedBlockItem(ModBlocks.GRAPE, new Item.Settings()));
+    public static final Item GRAPE = registerItem("grape", new Item(new Item.Settings().food(ModFoodComponents.GRAPE)));
+
+    public static final Item GREEN_BEAN_SEEDS = registerItems("green_bean_seeds",
+            new AliasedBlockItem(ModBlocks.GREEN_BEAN, new Item.Settings()));
+    public static final Item GREEN_BEAN = registerItem("green_bean", new Item(new Item.Settings().food(ModFoodComponents.GREEN_BEAN)));
+
+    public static final Item HOPS_SEEDS = registerItems("hops_seeds",
+            new AliasedBlockItem(ModBlocks.HOT_PEPPER, new Item.Settings()));
+    public static final Item HOPS = registerItem("hops", new Item(new Item.Settings().food(ModFoodComponents.HOPS)));
+
+    public static final Item HOT_PEPPER_SEEDS = registerItems("hot_pepper_seeds",
+            new AliasedBlockItem(ModBlocks.HOT_PEPPER, new Item.Settings()));
+    public static final Item HOT_PEPPER = registerItem("hot_pepper", new Item(new Item.Settings().food(ModFoodComponents.HOT_PEPPER)));
+
+
+    public static final Item KALE_SEEDS = registerItems("kale_seeds",
+            new AliasedBlockItem(ModBlocks.KALE, new Item.Settings()));
+    public static final Item KALE = registerItem("kale", new Item(new Item.Settings().food(ModFoodComponents.KALE)));
+
+    public static final Item MELON_SEEDS = registerItems("melon_seeds",
+            new AliasedBlockItem(ModBlocks.MELON, new Item.Settings()));
+    public static final Item MELON = registerItem("melon", new Item(new Item.Settings().food(ModFoodComponents.MELON)));
+
+    //混合种子，后处理
+
+//    public static final Item MIXED_FLOWER_SEEDS = registerItems("mixed_flower_seeds",
+//            new AliasedBlockItem(ModBlocks.MIXED_FLOWER, new Item.Settings()));
+//
+//    public static final Item MIXED_SEEDS = registerItems("mixed_seeds",
+//            new AliasedBlockItem(ModBlocks.MIXED, new Item.Settings()));
+
+    //混合种子，后处理
+
+    public static final Item PARSNIP_SEEDS = registerItems("parsnip_seeds",
+            new AliasedBlockItem(ModBlocks.PARSNIP, new Item.Settings()));
+    public static final Item PARSNIP = registerItem("parsnip", new Item(new Item.Settings().food(ModFoodComponents.PARSNIP)));
+
+    public static final Item PINEAPPLE_SEEDS = registerItems("pineapple_seeds",
+            new AliasedBlockItem(ModBlocks.PINEAPPLE, new Item.Settings()));
+    public static final Item PINEAPPLE = registerItem("pineapple", new Item(new Item.Settings().food(ModFoodComponents.PINEAPPLE)));
+
+    public static final Item POPPY_SEEDS = registerItems("poppy_seeds",
+            new AliasedBlockItem(ModBlocks.POPPY, new Item.Settings()));
+    public static final Item POPPY = registerItem("poppy", new Item(new Item.Settings().food(ModFoodComponents.POPPY)));
+
+    public static final Item POTATO_SEEDS = registerItems("potato_seeds",
+            new AliasedBlockItem(ModBlocks.POTATO, new Item.Settings()));
+    public static final Item POTATO = registerItem("potato", new Item(new Item.Settings().food(ModFoodComponents.POTATO)));
+
+    public static final Item POWDERMELON_SEEDS = registerItems("powdermelon_seeds",
+            new AliasedBlockItem(ModBlocks.POWDERMELON, new Item.Settings()));
+    public static final Item POWDERMELON = registerItem("powdermelon", new Item(new Item.Settings().food(ModFoodComponents.POWDERMELON)));
+
+    public static final Item PUMPKIN_SEEDS = registerItems("pumpkin_seeds",
+            new AliasedBlockItem(ModBlocks.PUMPKIN, new Item.Settings()));
+    public static final Item PUMPKIN = registerItem("pumpkin", new Item(new Item.Settings().food(ModFoodComponents.PUMPKIN)));
+
+    public static final Item QI_FRUIT_SEEDS = registerItems("qi_fruit_seeds",
+            new AliasedBlockItem(ModBlocks.QI_FRUIT, new Item.Settings()));
+    public static final Item QI_FRUIT = registerItem("qi_fruit", new Item(new Item.Settings().food(ModFoodComponents.QI_FRUIT)));
+
+    public static final Item RADISH_SEEDS = registerItems("radish_seeds",
+            new AliasedBlockItem(ModBlocks.RADISH, new Item.Settings()));
+    public static final Item RADISH = registerItem("radish", new Item(new Item.Settings().food(ModFoodComponents.RADISH)));
+
+    public static final Item RARE_SEEDS = registerItem("rare_seeds",
+            new AliasedBlockItem(ModBlocks.RARE, new Item.Settings()));
+    public static final Item RARE = registerItem("rare", new Item(new Item.Settings().food(ModFoodComponents.RARE)));
+
+
+
+    public static final Item RED_CABBAGE_SEEDS = registerItems("red_cabbage_seeds",
+            new AliasedBlockItem(ModBlocks.RED_CABBAGE, new Item.Settings()));
+    public static final Item RED_CABBAGE = registerItem("red_cabbage", new Item(new Item.Settings().food(ModFoodComponents.RED_CABBAGE)));
+
+    public static final Item RHUBARB_SEEDS = registerItems("rhubarb_seeds",
+            new AliasedBlockItem(ModBlocks.RHUBARB, new Item.Settings()));
+    public static final Item RHUBARB = registerItem("rhubarb", new Item(new Item.Settings().food(ModFoodComponents.RHUBARB)));
+
+    public static final Item RICE_SEEDS = registerItem("rice_seeds",
+            new AliasedBlockItem(ModBlocks.RICE, new Item.Settings()));
+    public static final Item RICE = registerItem("rice", new Item(new Item.Settings().food(ModFoodComponents.RICE)));
+
+    public static final Item SPANGLE_SEEDS = registerItems("spangle_seeds",
+            new AliasedBlockItem(ModBlocks.SPANGLE, new Item.Settings()));
+    public static final Item SPANGLE = registerItem("spangle", new Item(new Item.Settings().food(ModFoodComponents.SPANGLE)));
+
+    public static final Item STARFRUIT_SEEDS = registerItems("starfruit_seeds",
+            new AliasedBlockItem(ModBlocks.STARFRUIT, new Item.Settings()));
+    public static final Item STARFRUIT = registerItem("starfruit", new Item(new Item.Settings().food(ModFoodComponents.STARFRUIT)));
+
+    public static final Item STRAWBERRY_SEEDS = registerItems("strawberry_seeds",
+            new AliasedBlockItem(ModBlocks.STRAWBERRY, new Item.Settings()));
+    public static final Item STRAWBERRY = registerItem("strawberry", new Item(new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
+
+
+
+    public static final Item SUMMER_SQUASH_SEEDS = registerItems("summer_squash_seeds",
+            new AliasedBlockItem(ModBlocks.SUMMER_SQUASH, new Item.Settings()));
+    public static final Item SUMMER_SQUASH = registerItem("summer_squash", new Item(new Item.Settings().food(ModFoodComponents.SUMMER_SQUASH)));
+
+    public static final Item SUNFLOWER_SEEDS = registerItems("sunflower_seeds",
+            new AliasedBlockItem(ModBlocks.SUNFLOWER, new Item.Settings()));
+    public static final Item SUNFLOWER = registerItem("sunflower", new Item(new Item.Settings().food(ModFoodComponents.SUNFLOWER)));
+
+
+    public static final Item TARO_ROOT = registerItem("taro_root", new Item(new Item.Settings().food(ModFoodComponents.TARO_ROOT)));
+    public static final Item TARO_ROOT_SEEDS = registerItem("taro_root_seeds",
+            new AliasedBlockItem(ModBlocks.TARO, new Item.Settings()));
+
+    public static final Item TEA_LEAVES = registerItem("tea_leaves", new Item(new Item.Settings()));
+    public static final Item TEA_LEAVES_SEEDS = registerItem("tea_leaves_seeds",
+            new AliasedBlockItem(ModBlocks.TEA_LEAVES, new Item.Settings()));
+
+    public static final Item TOMATO_SEEDS = registerItems("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO, new Item.Settings()));
+    public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings().food(ModFoodComponents.TOMATO)));
+
+    public static final Item TULIP_SEEDS = registerItems("tulip_seeds",
+            new AliasedBlockItem(ModBlocks.TURNIP, new Item.Settings()));
+    public static final Item TULIP = registerItem("tulip", new Item(new Item.Settings().food(ModFoodComponents.TULIP)));
+
+
+    public static final Item WHEAT_SEEDS = registerItems("wheat_seeds",
+            new AliasedBlockItem(ModBlocks.WHEAT, new Item.Settings()));
+    public static final Item WHEAT = registerItem("wheat", new Item(new Item.Settings().food(ModFoodComponents.WHEAT)));
+
+    public static final Item YAM_SEEDS = registerItems("yam_seeds",
+            new AliasedBlockItem(ModBlocks.YAM, new Item.Settings()));
+    public static final Item YAM = registerItem("yam", new Item(new Item.Settings().food(ModFoodComponents.YAM)));
 
 
 
@@ -46,17 +243,6 @@ public class ModItems {
     public static final Item ROTTEN_PLANT = registerItem("rotten_plant", new Item(new Item.Settings()));
     public static final Item SOGGY_NEWSPAPER = registerItem("soggy_newspaper", new Item(new Item.Settings()));
     public static final Item TRASH = registerItem("trash", new Item(new Item.Settings()));
-
-
-
-
-
-
-
-
-
-
-
 
 
 

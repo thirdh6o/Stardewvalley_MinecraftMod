@@ -3,7 +3,6 @@ package com.hing.bestfishing.datagen;
 import com.hing.bestfishing.item.ModItems;
 import com.hing.bestfishing.tag.ModItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.minecraft.client.render.entity.feature.IronGolemCrackFeatureRenderer;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 

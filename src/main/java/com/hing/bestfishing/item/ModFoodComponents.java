@@ -3,6 +3,7 @@ package com.hing.bestfishing.item;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
+import net.minecraft.item.FoodComponents;
 
 public class ModFoodComponents {
     //From Besson
@@ -22,12 +23,217 @@ public class ModFoodComponents {
      */
 
 
-
     //农作物
     public static final FoodComponent CAULIFLOWER = new FoodComponent.Builder()
             .hunger(1).saturationModifier(0.6F)
             .build();
+    // Food components for crops and seeds
+    public static final FoodComponent AMARANTH = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
 
+    public static final FoodComponent BLUE_JAZZ = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+
+    public static final FoodComponent TULIP = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent POTATO = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent RARE = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+
+    public static final FoodComponent ANCIENT_FRUIT = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent ARTICHOKE = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent BEET = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent BLUEBERRY = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent BOK_CHOY = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent BROCCOLI = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent CACTUS_FRUIT = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent CARROT = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent CORN = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent CRANBERRIES = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent EGGPLANT = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent FAIRY_ROSE = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+
+    public static final FoodComponent RICE = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent FIBER = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent GARLIC = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent GRAPE = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent GREEN_BEAN = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent HOPS = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent HOT_PEPPER = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent KALE = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent MELON = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+
+    public static final FoodComponent PARSNIP = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+
+
+    public static final FoodComponent PINEAPPLE = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent POPPY = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent POWDERMELON = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent PUMPKIN = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+
+    public static final FoodComponent QI_FRUIT = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent RADISH = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+
+    public static final FoodComponent RED_CABBAGE = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent RHUBARB = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+
+
+    public static final FoodComponent SPANGLE = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent STARFRUIT = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent STRAWBERRY = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent SUMMER_SQUASH = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent SUNFLOWER = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+
+    public static final FoodComponent TARO_ROOT = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent TARO_TUBER = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent TEA_LEAVES = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent TEA_SAPLING = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent TOMATO = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent TULIP_BULB = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent UNMILLED_RICE = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent WHEAT = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
+
+    public static final FoodComponent YAM = new FoodComponent.Builder()
+            .hunger(1).saturationModifier(0.6F)
+            .build();
 
 
     //JoJa可乐
@@ -36,13 +242,10 @@ public class ModFoodComponents {
             .snack()
             .build();
 
-    public static  final FoodComponent SHENGYUPIAN = new FoodComponent.Builder()
+    public static final FoodComponent SHENGYUPIAN = new FoodComponent.Builder()
             .hunger(4).saturationModifier(2.0F)
             .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 2400), 1.0F)
             .build();
-
-
-
 
 
     public static final FoodComponent HETUN = new FoodComponent.Builder()
@@ -73,7 +276,7 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 1200), 1.0F)
             .build();
 
-        public static final FoodComponent DAZUILUYU = new FoodComponent.Builder()
+    public static final FoodComponent DAZUILUYU = new FoodComponent.Builder()
             .hunger(5).saturationModifier(0.7F)
             .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 1200), 1.0F)
             .build();
@@ -82,7 +285,6 @@ public class ModFoodComponents {
             .hunger(3).saturationModifier(0.7F)
             .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 1200), 1.0F)
             .build();
-
 
 
     public static final FoodComponent HONGZUNYU = new FoodComponent.Builder()
@@ -299,7 +501,6 @@ public class ModFoodComponents {
             .build();
 
 
-
     //以下为高级鱼类
     public static final FoodComponent WUYEYOUYU = new FoodComponent.Builder()
             .hunger(5).saturationModifier(0.7F)
@@ -309,8 +510,8 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 12000), 1.0F)
             .statusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 12000), 1.0F)
             .statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 12000), 1.0F)
-            .statusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE,12000), 1.0F)
-                    .build();
+            .statusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 12000), 1.0F)
+            .build();
 
     public static final FoodComponent YOULINGYU = new FoodComponent.Builder()
             .hunger(5).saturationModifier(0.7F)
@@ -333,9 +534,9 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 12000), 1.0F)
 
 
-                    .build();
+            .build();
 
-    public static final FoodComponent  FEIHONGYU = new FoodComponent.Builder()
+    public static final FoodComponent FEIHONGYU = new FoodComponent.Builder()
             .hunger(5).saturationModifier(0.7F)
             .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 12000), 1.0F)
             .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 12000), 1.0F)
@@ -394,7 +595,7 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 12000), 1.0F)
             .build();
 
-    public static final FoodComponent  CHUANSHUOZHIYUERDAI = new FoodComponent.Builder()
+    public static final FoodComponent CHUANSHUOZHIYUERDAI = new FoodComponent.Builder()
             .hunger(5).saturationModifier(0.7F)
             .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 12000), 1.0F)
             .statusEffect(new StatusEffectInstance(StatusEffects.CONDUIT_POWER, 12000), 1.0F)
@@ -424,4 +625,8 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.WITHER, 12000), 1.0F)
             .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 12000), 1.0F)
             .build();
+
+
+
 }
+
