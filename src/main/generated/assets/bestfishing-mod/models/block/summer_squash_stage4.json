@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bestfishing-mod:block/summer_squash_stage4"
+  }
+}

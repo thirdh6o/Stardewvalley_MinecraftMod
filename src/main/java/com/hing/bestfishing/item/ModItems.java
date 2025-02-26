@@ -209,7 +209,7 @@ public class ModItems {
     public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings().food(ModFoodComponents.TOMATO)));
 
     public static final Item TULIP_SEEDS = registerItems("tulip_seeds",
-            new AliasedBlockItem(ModBlocks.TURNIP, new Item.Settings()));
+            new AliasedBlockItem(ModBlocks.TULIP, new Item.Settings()));
     public static final Item TULIP = registerItem("tulip", new Item(new Item.Settings().food(ModFoodComponents.TULIP)));
 
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bestfishing-mod:block/bok_choy_stage1"
+  }
+}

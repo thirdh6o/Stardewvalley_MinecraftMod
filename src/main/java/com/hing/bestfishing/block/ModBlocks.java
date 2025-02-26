@@ -14,8 +14,6 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
 
-
-
     public static final Block CAULIFLOWER = Registry.register(Registries.BLOCK,
             new Identifier(BestFishingMod.MOD_ID, "cauliflower"),
             new CauliFlower(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
@@ -87,6 +85,11 @@ public class ModBlocks {
     public static final Block GREEN_BEAN = Registry.register(Registries.BLOCK,
             new Identifier(BestFishingMod.MOD_ID, "green_bean"),
             new Green_bean(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block HOPS= Registry.register( Registries.BLOCK,
+            new Identifier(BestFishingMod.MOD_ID, "hops"),
+            new Hops(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
+
 
     public static final Block HOT_PEPPER = Registry.register(Registries.BLOCK,
             new Identifier(BestFishingMod.MOD_ID, "hot_pepper"),
@@ -186,12 +189,12 @@ public class ModBlocks {
             new Identifier(BestFishingMod.MOD_ID, "rare"),
             new Rare_Block(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
-    public static final Block TURNIP = Registry.register(Registries.BLOCK,
+    public static final Block TULIP = Registry.register(Registries.BLOCK,
             new Identifier(BestFishingMod.MOD_ID, "tulip"),
             new Tulip_Block(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block TARO = Registry.register(Registries.BLOCK,
-            new Identifier(BestFishingMod.MOD_ID, "taro"),
+            new Identifier(BestFishingMod.MOD_ID, "taro_root"),
             new Taro_Block(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block RICE = Registry.register(Registries.BLOCK,

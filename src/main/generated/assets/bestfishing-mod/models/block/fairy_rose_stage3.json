@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bestfishing-mod:block/fairy_rose_stage3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bestfishing-mod:block/yam_stage4"
+  }
+}

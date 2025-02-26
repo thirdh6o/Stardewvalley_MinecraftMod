@@ -34,14 +34,6 @@ public class ModZhLangProvider extends FabricLanguageProvider {
 
 
 
-
-
-
-
-
-
-
-
         //SWORD
         translationBuilder.add(ModItems.BONE_SWORD, "骨剑");
         translationBuilder.add(ModItems.CLAYMORE, "大剑");
