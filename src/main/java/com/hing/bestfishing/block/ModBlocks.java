@@ -165,7 +165,7 @@ public class ModBlocks {
             new Sunflower_Block(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block TEA_LEAVES = Registry.register(Registries.BLOCK,
-            new Identifier(BestFishingMod.MOD_ID, "tea_leaves"),
+            new Identifier(BestFishingMod.MOD_ID, "tea"),
             new Tea_Leaves_Block(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
 
@@ -186,7 +186,7 @@ public class ModBlocks {
             new Potato_Block(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block RARE = Registry.register(Registries.BLOCK,
-            new Identifier(BestFishingMod.MOD_ID, "rare"),
+            new Identifier(BestFishingMod.MOD_ID, "sweet_gem_berry"),
             new Rare_Block(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block TULIP = Registry.register(Registries.BLOCK,
@@ -198,7 +198,7 @@ public class ModBlocks {
             new Taro_Block(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block RICE = Registry.register(Registries.BLOCK,
-            new Identifier(BestFishingMod.MOD_ID, "rice"),
+            new Identifier(BestFishingMod.MOD_ID, "unmilled_rice"),
             new Rice_Block(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
 

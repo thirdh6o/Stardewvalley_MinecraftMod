@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bestfishing-mod:block/sweet_gem_berry_stage2"
+  }
+}

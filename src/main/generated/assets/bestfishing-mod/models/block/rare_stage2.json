@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/crop",
-  "textures": {
-    "crop": "bestfishing-mod:block/rare_stage2"
-  }
-}

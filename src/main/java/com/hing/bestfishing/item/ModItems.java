@@ -97,7 +97,7 @@ public class ModItems {
     public static final Item GREEN_BEAN = registerItem("green_bean", new Item(new Item.Settings().food(ModFoodComponents.GREEN_BEAN)));
 
     public static final Item HOPS_SEEDS = registerItems("hops_seeds",
-            new AliasedBlockItem(ModBlocks.HOT_PEPPER, new Item.Settings()));
+            new AliasedBlockItem(ModBlocks.HOPS, new Item.Settings()));
     public static final Item HOPS = registerItem("hops", new Item(new Item.Settings().food(ModFoodComponents.HOPS)));
 
     public static final Item HOT_PEPPER_SEEDS = registerItems("hot_pepper_seeds",
@@ -157,7 +157,7 @@ public class ModItems {
 
     public static final Item RARE_SEEDS = registerItem("rare_seeds",
             new AliasedBlockItem(ModBlocks.RARE, new Item.Settings()));
-    public static final Item RARE = registerItem("rare", new Item(new Item.Settings().food(ModFoodComponents.RARE)));
+    public static final Item RARE = registerItem("sweet_gem_berry", new Item(new Item.Settings().food(ModFoodComponents.RARE)));
 
 
 
@@ -200,7 +200,7 @@ public class ModItems {
     public static final Item TARO_ROOT_SEEDS = registerItem("taro_root_seeds",
             new AliasedBlockItem(ModBlocks.TARO, new Item.Settings()));
 
-    public static final Item TEA_LEAVES = registerItem("tea_leaves", new Item(new Item.Settings()));
+    public static final Item TEA_LEAVES = registerItem("tea", new Item(new Item.Settings()));
     public static final Item TEA_LEAVES_SEEDS = registerItem("tea_leaves_seeds",
             new AliasedBlockItem(ModBlocks.TEA_LEAVES, new Item.Settings()));
 

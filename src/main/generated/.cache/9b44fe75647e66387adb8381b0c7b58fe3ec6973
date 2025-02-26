@@ -1,4 +1,5 @@
-// 1.20	2025-02-26T16:32:40.1641311	BestFishing-Mod/Block Loot Tables
+// 1.20	2025-02-26T17:58:37.8750332	BestFishing-Mod/Block Loot Tables
+9433abb1312adcbd890c37ffceb2a84f0ee46473 data\bestfishing-mod\loot_tables\blocks\sweet_gem_berry.json
 164f69d536c8b701ebe930a9052ee0ec8b4d78d3 data\bestfishing-mod\loot_tables\blocks\broccoli.json
 3c1f8278c4a72bf7eaced8cc4f9fcc2a36f94817 data\bestfishing-mod\loot_tables\blocks\spangle.json
 c7d749cb594b2763f72966273ec1a3ce68236ae0 data\bestfishing-mod\loot_tables\blocks\eggplant.json
@@ -15,10 +16,10 @@ e2940ea7db40c7bfad3b1434b2b9f018442ccd35 data\bestfishing-mod\loot_tables\blocks
 99d0f81a48e71b9ae6d461e73d231d0962c1f9dc data\bestfishing-mod\loot_tables\blocks\corn.json
 9e5a3b11a82e7646c715a0eaf86059e152918e9b data\bestfishing-mod\loot_tables\blocks\beet.json
 d7f8cfb4efaf670d593d851741ca15ae5b68fdc1 data\bestfishing-mod\loot_tables\blocks\strawberry.json
-ab9399fe8ee9b9e50c572f444e236f0f08a99f0b data\bestfishing-mod\loot_tables\blocks\rice.json
 4d1903047bfab164874c99b77e47c3bd1772aa0b data\bestfishing-mod\loot_tables\blocks\pumpkin.json
+72f91333214a127ffe54f587dd289b51f358a06d data\bestfishing-mod\loot_tables\blocks\powdermelon.json
+33afd0b9cd7daa8e7a8c4225431d6cf906991821 data\bestfishing-mod\loot_tables\blocks\tea.json
 d3515e12cf14cf0ad4511818dbfe41422b6d83a9 data\bestfishing-mod\loot_tables\blocks\hops.json
-d8caf7c15f494534b8423339d3f7d9123800785f data\bestfishing-mod\loot_tables\blocks\tea_leaves.json
 760eb84b26793d8878a32090f56d201d4e173721 data\bestfishing-mod\loot_tables\blocks\yam.json
 329675fc29b22068f135eb8f5e2a0e11920a81a3 data\bestfishing-mod\loot_tables\blocks\poppy.json
 3c2e25fff08ea27ea043825c57042f56a8ca9a6b data\bestfishing-mod\loot_tables\blocks\melon.json
@@ -32,6 +33,7 @@ b9109371658d3d9214891c020516c4a4c3db70cc data\bestfishing-mod\loot_tables\blocks
 a5122814595010566374848370d50e44f7f88394 data\bestfishing-mod\loot_tables\blocks\grape.json
 ba6043acf850c531d2f8f9fe8255b9ef296b9a57 data\bestfishing-mod\loot_tables\blocks\artichoke.json
 fd8abea2b27a37944ec4a1748deb3ec58874f325 data\bestfishing-mod\loot_tables\blocks\blue_jazz.json
+485a2676fc7c7089fb17cc05f1664ebc18c51fff data\bestfishing-mod\loot_tables\blocks\unmilled_rice.json
 a57a9a4e19587461bb27bba63a6726d2a40e6620 data\bestfishing-mod\loot_tables\blocks\cactus_fruit.json
 bdbce2fae9e4157acf160a11c2fc5276cb3147fb data\bestfishing-mod\loot_tables\blocks\fiber.json
 b10ef878ae8ce941b8ef4d4ec1a389091a90107c data\bestfishing-mod\loot_tables\blocks\wheat.json
@@ -40,6 +42,5 @@ ab765e6ef23ff26c80b93bd6519afb6a202d2d79 data\bestfishing-mod\loot_tables\blocks
 344d8e78b8ea366a63c82a6dc64e75242997887e data\bestfishing-mod\loot_tables\blocks\amaranth.json
 9002cb3949298b2146eb6d831939796a8a1a5bef data\bestfishing-mod\loot_tables\blocks\rhubarb.json
 99a6dc3401aaec92e566c50f4be5bdff2fccf44b data\bestfishing-mod\loot_tables\blocks\radish.json
-a2b3e23fe0e46996b7057c48b4bca0f440f60206 data\bestfishing-mod\loot_tables\blocks\rare.json
 75c7d0a87ba81e29ff0c53f3ada7109595b4884e data\bestfishing-mod\loot_tables\blocks\bok_choy.json
 e6cc8b7a5960cabf81a895e9ae27a068086f0836 data\bestfishing-mod\loot_tables\blocks\hot_pepper.json

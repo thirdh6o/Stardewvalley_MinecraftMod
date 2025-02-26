@@ -34,6 +34,7 @@ public class ModModelsProvider  extends FabricModelProvider {
         blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.AMARANTH, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.ARTICHOKE, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.ANCIENT_FRUIT, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.BEET, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.BLUEBERRY, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.BLUE_JAZZ, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
@@ -75,6 +76,7 @@ public class ModModelsProvider  extends FabricModelProvider {
         blockStateModelGenerator.registerCrop(ModBlocks.TULIP, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.WHEAT, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.YAM, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.POWDERMELON, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
     }
 
 
@@ -122,7 +124,7 @@ public class ModModelsProvider  extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GREEN_BEAN, Models.GENERATED);
       //  itemModelGenerator.register(ModItems.GREEN_BEAN_SEEDS, Models.GENERATED);
         itemModelGenerator.register(ModItems.HOPS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.HOPS_SEEDS, Models.GENERATED);
+       // itemModelGenerator.register(ModItems.HOPS_SEEDS, Models.GENERATED);
         itemModelGenerator.register(ModItems.HOT_PEPPER, Models.GENERATED);
       //  itemModelGenerator.register(ModItems.HOT_PEPPER_SEEDS, Models.GENERATED);
         itemModelGenerator.register(ModItems.KALE, Models.GENERATED);
@@ -140,7 +142,7 @@ public class ModModelsProvider  extends FabricModelProvider {
         itemModelGenerator.register(ModItems.POTATO, Models.GENERATED);
       //  itemModelGenerator.register(ModItems.POTATO_SEEDS, Models.GENERATED);
         itemModelGenerator.register(ModItems.POWDERMELON, Models.GENERATED);
-        itemModelGenerator.register(ModItems.POWDERMELON_SEEDS, Models.GENERATED);
+     //   itemModelGenerator.register(ModItems.POWDERMELON_SEEDS, Models.GENERATED);
         itemModelGenerator.register(ModItems.PUMPKIN, Models.GENERATED);
      //   itemModelGenerator.register(ModItems.PUMPKIN_SEEDS, Models.GENERATED);
         itemModelGenerator.register(ModItems.QI_FRUIT, Models.GENERATED);

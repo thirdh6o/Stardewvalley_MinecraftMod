@@ -24,6 +24,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
            倘若作物的生长阶段为5，那么掉落的物品为ModItems.STRAWBERRY，否则掉落的物品为ModItems.STRAWBERRY_SEEDS
            不带种子的作物可以参考POTATO、CARROT等作物的掉落物
          */
+
+        BlockStatePropertyLootCondition.Builder builder0 =
+                BlockStatePropertyLootCondition.builder(ModBlocks.POWDERMELON)
+                        .properties(StatePredicate.Builder.create().exactMatch(CauliFlower.AGE, 5));
+        addDrop(ModBlocks.POWDERMELON, cropDrops(ModBlocks.POWDERMELON, ModItems.POWDERMELON, ModItems.POWDERMELON_SEEDS, builder0));
+
+
+
         BlockStatePropertyLootCondition.Builder builder =
                 BlockStatePropertyLootCondition.builder(ModBlocks.CAULIFLOWER)
                         .properties(StatePredicate.Builder.create().exactMatch(CauliFlower.AGE, 5));
