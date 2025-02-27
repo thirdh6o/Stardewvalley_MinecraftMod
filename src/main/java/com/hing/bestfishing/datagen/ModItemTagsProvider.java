@@ -8,6 +8,7 @@ import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.registry.tag.ItemTags;
 
 public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
 
@@ -17,6 +18,33 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
+
+
+        //音乐唱片
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+                .add(ModItems.CLOUD_COUNTRY_MUSIC_DISC)
+                .add(ModItems.COUNTRY_SHOP_MUSIC_DISC)
+                .add(ModItems.FAIR_THEME_MUSIC_DISC)
+                .add(ModItems.FALL1_MUSIC_DISC)
+                .add(ModItems.FALL2_MUSIC_DISC)
+                .add(ModItems.FALL3_MUSIC_DISC)
+                .add(ModItems.FLOWER_DANCE_MUSIC_DISC)
+                .add(ModItems.FUN_FESTIVAL_MUSIC_DISC)
+                .add(ModItems.GRANDPA_MUSIC_DISC)
+                .add(ModItems.OVERTURE_MUSIC_DISC)
+                .add(ModItems.PELICAN_TOWN_MUSIC_DISC)
+                .add(ModItems.SPRING1_MUSIC_DISC)
+                .add(ModItems.SPRING2_MUSIC_DISC)
+                .add(ModItems.SPRING3_MUSIC_DISC)
+                .add(ModItems.SUMMER1_MUSIC_DISC)
+                .add(ModItems.SUMMER2_MUSIC_DISC)
+                .add(ModItems.SUMMER3_MUSIC_DISC)
+                .add(ModItems.WEDDING_CELEBRATION_MUSIC_DISC)
+                .add(ModItems.WINTER1_MUSIC_DISC)
+                .add(ModItems.WINTER2_MUSIC_DISC)
+                .add(ModItems.WINTER3_MUSIC_DISC)
+                .add(ModItems.WINTER_FESTIVAL_MUSIC_DISC)
+                .add(ModItems.WOOD_MUSIC_DISC);
 
 
         getOrCreateTagBuilder(ModItemTags.SWORDS)

@@ -3,6 +3,8 @@ package com.hing.bestfishing.item;
 import com.hing.bestfishing.BestFishingMod;
 
 import com.hing.bestfishing.block.ModBlocks;
+import com.hing.bestfishing.sounds.ModSounds;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -12,6 +14,56 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+
+
+    //音乐盒
+    public static final Item CLOUD_COUNTRY_MUSIC_DISC = registerItems("cloud_country_music_disc",
+            new MusicDiscItem(7, ModSounds.CLOUD_COUNTRY, new FabricItemSettings().maxCount(1), 240));
+    public static final Item COUNTRY_SHOP_MUSIC_DISC = registerItems("country_shop_music_disc",
+            new MusicDiscItem(7, ModSounds.COUNTRY_SHOP, new FabricItemSettings().maxCount(1), 240));
+    public static final Item FAIR_THEME_MUSIC_DISC = registerItems("fair_theme_music_disc",
+            new MusicDiscItem(7, ModSounds.FAIR_THEME, new FabricItemSettings().maxCount(1), 240));
+    public static final Item FALL1_MUSIC_DISC = registerItems("fall1_music_disc",
+            new MusicDiscItem(7, ModSounds.FALL1, new FabricItemSettings().maxCount(1), 240));
+    public static final Item FALL2_MUSIC_DISC = registerItems("fall2_music_disc",
+            new MusicDiscItem(7, ModSounds.FALL2, new FabricItemSettings().maxCount(1), 240));
+    public static final Item FALL3_MUSIC_DISC = registerItems("fall3_music_disc",
+            new MusicDiscItem(7, ModSounds.FALL3, new FabricItemSettings().maxCount(1), 240));
+    public static final Item FLOWER_DANCE_MUSIC_DISC = registerItems("flower_dance_music_disc",
+            new MusicDiscItem(7, ModSounds.FLOWER_DANCE, new FabricItemSettings().maxCount(1), 240));
+    public static final Item FUN_FESTIVAL_MUSIC_DISC = registerItems("fun_festival_music_disc",
+            new MusicDiscItem(7, ModSounds.FUN_FESTIVAL, new FabricItemSettings().maxCount(1), 240));
+    public static final Item GRANDPA_MUSIC_DISC = registerItems("grandpa_music_disc",
+            new MusicDiscItem(7, ModSounds.GRANDPA, new FabricItemSettings().maxCount(1), 240));
+    public static final Item OVERTURE_MUSIC_DISC = registerItems("overture_music_disc",
+            new MusicDiscItem(7, ModSounds.OVERTURE, new FabricItemSettings().maxCount(1), 240));
+    public static final Item PELICAN_TOWN_MUSIC_DISC = registerItems("pelican_town_music_disc",
+            new MusicDiscItem(7, ModSounds.PELICAN_TOWN, new FabricItemSettings().maxCount(1), 240));
+    public static final Item SPRING1_MUSIC_DISC = registerItems("spring1_music_disc",
+            new MusicDiscItem(7, ModSounds.SPRING1, new FabricItemSettings().maxCount(1), 240));
+    public static final Item SPRING2_MUSIC_DISC = registerItems("spring2_music_disc",
+            new MusicDiscItem(7, ModSounds.SPRING2, new FabricItemSettings().maxCount(1), 240));
+    public static final Item SPRING3_MUSIC_DISC = registerItems("spring3_music_disc",
+            new MusicDiscItem(7, ModSounds.SPRING3, new FabricItemSettings().maxCount(1), 240));
+    public static final Item SUMMER1_MUSIC_DISC = registerItems("summer1_music_disc",
+            new MusicDiscItem(7, ModSounds.SUMMER1, new FabricItemSettings().maxCount(1), 240));
+    public static final Item SUMMER2_MUSIC_DISC = registerItems("summer2_music_disc",
+            new MusicDiscItem(7, ModSounds.SUMMER2, new FabricItemSettings().maxCount(1), 240));
+    public static final Item SUMMER3_MUSIC_DISC = registerItems("summer3_music_disc",
+            new MusicDiscItem(7, ModSounds.SUMMER3, new FabricItemSettings().maxCount(1), 240));
+    public static final Item WEDDING_CELEBRATION_MUSIC_DISC = registerItems("wedding_celebration_music_disc",
+            new MusicDiscItem(7, ModSounds.WEDDING_CELEBRATION, new FabricItemSettings().maxCount(1), 240));
+    public static final Item WINTER1_MUSIC_DISC = registerItems("winter1_music_disc",
+            new MusicDiscItem(7, ModSounds.WINTER1, new FabricItemSettings().maxCount(1), 240));
+    public static final Item WINTER2_MUSIC_DISC = registerItems("winter2_music_disc",
+            new MusicDiscItem(7, ModSounds.WINTER2, new FabricItemSettings().maxCount(1), 240));
+    public static final Item WINTER3_MUSIC_DISC = registerItems("winter3_music_disc",
+            new MusicDiscItem(7, ModSounds.WINTER3, new FabricItemSettings().maxCount(1), 240));
+    public static final Item WINTER_FESTIVAL_MUSIC_DISC = registerItems("winter_festival_music_disc",
+            new MusicDiscItem(7, ModSounds.WINTER_FESTIVAL, new FabricItemSettings().maxCount(1), 240));
+    public static final Item WOOD_MUSIC_DISC = registerItems("wood_music_disc",
+            new MusicDiscItem(7, ModSounds.WOOD, new FabricItemSettings().maxCount(1), 240));
+
 
     //生鱼片注册（加工产品）
     public static final Item SHENGYUPIAN = registerItem("shengyupian", new Item(new Item.Settings().food(ModFoodComponents.SHENGYUPIAN)));

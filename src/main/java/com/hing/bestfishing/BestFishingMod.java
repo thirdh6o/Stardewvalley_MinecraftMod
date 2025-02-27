@@ -3,6 +3,7 @@ package com.hing.bestfishing;
 import com.hing.bestfishing.block.ModBlocks;
 import com.hing.bestfishing.item.ModItemGroups;
 import com.hing.bestfishing.item.ModItems;
+import com.hing.bestfishing.sounds.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -24,6 +25,7 @@ public class BestFishingMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
 		ModBlocks.registerModBlocks();
+		ModSounds.registerSounds();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

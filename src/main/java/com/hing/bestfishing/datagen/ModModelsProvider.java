@@ -82,6 +82,37 @@ public class ModModelsProvider  extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
+        //音乐唱片
+        itemModelGenerator.register(ModItems.CLOUD_COUNTRY_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COUNTRY_SHOP_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FAIR_THEME_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FALL1_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FALL2_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FALL3_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FLOWER_DANCE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FUN_FESTIVAL_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GRANDPA_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OVERTURE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PELICAN_TOWN_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SPRING1_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SPRING2_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SPRING3_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SUMMER1_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SUMMER2_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SUMMER3_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WEDDING_CELEBRATION_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WINTER1_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WINTER2_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WINTER3_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WINTER_FESTIVAL_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WOOD_MUSIC_DISC, Models.GENERATED);
+
+
+
+
+
+
         itemModelGenerator.register(ModItems.SHENGYUPIAN, Models.GENERATED);
 
         //农作物模型
