@@ -15,6 +15,7 @@ public class ModItemGroups {
     public static final RegistryKey<ItemGroup> BestFishing_GROUP = register("bestfishing_group");
     public static final RegistryKey<ItemGroup> FARM_GROUP = register("farm_group");
     public static final RegistryKey<ItemGroup> COMBAT_GROUP = register("combat_group");
+    public static final RegistryKey<ItemGroup> MUSIC_DISC_GROUP = register("music_disc_group");
 
 
     private static RegistryKey<ItemGroup> register(String id) {
@@ -246,5 +247,54 @@ public class ModItemGroups {
                             entries.add(ModItems.YETI_TOOTH);
                         }).build());
 
+        Registry.register( Registries.ITEM_GROUP,
+                MUSIC_DISC_GROUP,
+                ItemGroup.create(ItemGroup.Row.TOP, 8)
+                        .displayName(Text.translatable("itemGroup..music_disc_group"))
+                .icon(() -> new ItemStack(ModItems.CLOUD_COUNTRY_MUSIC_DISC))
+                        .entries((displayContext, entries) -> {
+                                    entries.add(ModItems.CLOUD_COUNTRY_MUSIC_DISC);
+                                    entries.add(ModItems.COUNTRY_SHOP_MUSIC_DISC);
+                                    entries.add(ModItems.FAIR_THEME_MUSIC_DISC);
+                                    entries.add(ModItems.FALL1_MUSIC_DISC);
+                                    entries.add(ModItems.FALL2_MUSIC_DISC);
+                                    entries.add(ModItems.FALL3_MUSIC_DISC);
+                                    entries.add(ModItems.FLOWER_DANCE_MUSIC_DISC);
+                                    entries.add(ModItems.FUN_FESTIVAL_MUSIC_DISC);
+                                    entries.add(ModItems.GRANDPA_MUSIC_DISC);
+                                    entries.add(ModItems.OVERTURE_MUSIC_DISC);
+                                    entries.add(ModItems.PELICAN_TOWN_MUSIC_DISC);
+                                    entries.add(ModItems.SPRING1_MUSIC_DISC);
+                                    entries.add(ModItems.SPRING2_MUSIC_DISC);
+                                    entries.add(ModItems.SPRING3_MUSIC_DISC);
+                                    entries.add(ModItems.SUMMER1_MUSIC_DISC);
+                                    entries.add(ModItems.SUMMER2_MUSIC_DISC);
+                                    entries.add(ModItems.SUMMER3_MUSIC_DISC);
+                                    entries.add(ModItems.WEDDING_CELEBRATION_MUSIC_DISC);
+                                    entries.add(ModItems.WINTER1_MUSIC_DISC);
+                                    entries.add(ModItems.WINTER2_MUSIC_DISC);
+                                    entries.add(ModItems.WINTER3_MUSIC_DISC);
+                                    entries.add(ModItems.WINTER_FESTIVAL_MUSIC_DISC);
+                                    entries.add(ModItems.WOOD_MUSIC_DISC);
+
+
+                        }
+                        ).build());
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
+
+
+
 }

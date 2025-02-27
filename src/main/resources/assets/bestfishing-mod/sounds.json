@@ -1,0 +1,187 @@
+{
+  "cloud_country": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:cloud_country",
+        "stream": true
+      }
+    ]
+  },
+  "country_shop": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:country_shop",
+        "stream": true
+      }
+    ]
+  },
+  "fair_theme": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:fair_theme",
+        "stream": true
+      }
+    ]
+  },
+  "fall1": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:fall1",
+        "stream": true
+      }
+    ]
+  },
+  "fall2": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:fall2",
+        "stream": true
+      }
+    ]
+  },
+  "fall3": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:fall3",
+        "stream": true
+      }
+    ]
+  },
+  "flower_dance": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:flower_dance",
+        "stream": true
+      }
+    ]
+  },
+  "fun_festival": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:fun_festival",
+        "stream": true
+      }
+    ]
+  },
+  "grandpa": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:grandpa",
+        "stream": true
+      }
+    ]
+  },
+  "overture": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:overture",
+        "stream": true
+      }
+    ]
+  },
+  "pelican_town": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:pelican_town",
+        "stream": true
+      }
+    ]
+  },
+  "spring1": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:spring1",
+        "stream": true
+      }
+    ]
+  },
+  "spring2": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:spring2",
+        "stream": true
+      }
+    ]
+  },
+  "spring3": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:spring3",
+        "stream": true
+      }
+    ]
+  },
+  "summer1": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:summer1",
+        "stream": true
+      }
+    ]
+  },
+  "summer2": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:summer2",
+        "stream": true
+      }
+    ]
+  },
+  "summer3": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:summer3",
+        "stream": true
+      }
+    ]
+  },
+  "wedding_celebration": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:wedding_celebration",
+        "stream": true
+      }
+    ]
+  },
+  "winter1": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:winter1",
+        "stream": true
+      }
+    ]
+  },
+  "winter2": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:winter2",
+        "stream": true
+      }
+    ]
+  },
+  "winter3": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:winter3",
+        "stream": true
+      }
+    ]
+  },
+  "winter_festival": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:winter_festival",
+        "stream": true
+      }
+    ]
+  },
+  "wood": {
+    "sounds": [
+      {
+        "name": "bestfishing-mod:wood",
+        "stream": true
+      }
+    ]
+  }
+
+}

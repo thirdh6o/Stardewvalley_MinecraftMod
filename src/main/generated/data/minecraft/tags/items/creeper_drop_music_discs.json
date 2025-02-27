@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "bestfishing-mod:cloud_country_music_disc",
+    "bestfishing-mod:country_shop_music_disc",
+    "bestfishing-mod:fair_theme_music_disc",
+    "bestfishing-mod:fall1_music_disc",
+    "bestfishing-mod:fall2_music_disc",
+    "bestfishing-mod:fall3_music_disc",
+    "bestfishing-mod:flower_dance_music_disc",
+    "bestfishing-mod:fun_festival_music_disc",
+    "bestfishing-mod:grandpa_music_disc",
+    "bestfishing-mod:overture_music_disc",
+    "bestfishing-mod:pelican_town_music_disc",
+    "bestfishing-mod:spring1_music_disc",
+    "bestfishing-mod:spring2_music_disc",
+    "bestfishing-mod:spring3_music_disc",
+    "bestfishing-mod:summer1_music_disc",
+    "bestfishing-mod:summer2_music_disc",
+    "bestfishing-mod:summer3_music_disc",
+    "bestfishing-mod:wedding_celebration_music_disc",
+    "bestfishing-mod:winter1_music_disc",
+    "bestfishing-mod:winter2_music_disc",
+    "bestfishing-mod:winter3_music_disc",
+    "bestfishing-mod:winter_festival_music_disc",
+    "bestfishing-mod:wood_music_disc"
+  ]
+}

@@ -21,7 +21,7 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
 
 
         //音乐唱片
-        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .add(ModItems.CLOUD_COUNTRY_MUSIC_DISC)
                 .add(ModItems.COUNTRY_SHOP_MUSIC_DISC)
                 .add(ModItems.FAIR_THEME_MUSIC_DISC)

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bestfishing-mod:item/overture_music_disc"
+  }
+}
