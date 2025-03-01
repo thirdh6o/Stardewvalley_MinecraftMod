@@ -165,15 +165,7 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.MELON, new Item.Settings()));
     public static final Item MELON = registerItem("melon", new Item(new Item.Settings().food(ModFoodComponents.MELON)));
 
-    //混合种子，后处理
 
-//    public static final Item MIXED_FLOWER_SEEDS = registerItems("mixed_flower_seeds",
-//            new AliasedBlockItem(ModBlocks.MIXED_FLOWER, new Item.Settings()));
-//
-//    public static final Item MIXED_SEEDS = registerItems("mixed_seeds",
-//            new AliasedBlockItem(ModBlocks.MIXED, new Item.Settings()));
-
-    //混合种子，后处理
 
     public static final Item PARSNIP_SEEDS = registerItems("parsnip_seeds",
             new AliasedBlockItem(ModBlocks.PARSNIP, new Item.Settings()));

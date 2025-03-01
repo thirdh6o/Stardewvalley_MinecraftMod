@@ -19,6 +19,7 @@ public class ModZhLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.bestfishing_group", "星露谷物语钓鱼");
         translationBuilder.add("itemGroup.farm_group","星露谷物语种植");
         translationBuilder.add("itemGroup.combat_group","星露谷物语战斗");
+        translationBuilder.add("itemGroup.music_disc_group","星露谷物语音乐唱片");
         translationBuilder.add(ModItems.SHENGYUPIAN, "生鱼片");
 
         //种植
@@ -26,9 +27,167 @@ public class ModZhLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.CAULIFLOWER_SEEDS, "花椰菜种子");
         translationBuilder.add(ModBlocks.CAULIFLOWER, "花椰菜");
 
+        translationBuilder.add(ModItems.AMARANTH_SEEDS, "苋菜种子");
+        translationBuilder.add(ModItems.AMARANTH, "苋菜");
+
+        translationBuilder.add(ModItems.ANCIENT_FRUIT_SEEDS, "古老果实种子");
+        translationBuilder.add(ModItems.ANCIENT_FRUIT, "古老果实");
+
+        translationBuilder.add(ModItems.ARTICHOKE_SEEDS, "洋蓟种子");
+        translationBuilder.add(ModItems.ARTICHOKE, "洋蓟");
+
+        translationBuilder.add(ModItems.BEET_SEEDS, "甜菜种子");
+        translationBuilder.add(ModItems.BEET, "甜菜");
+
+        translationBuilder.add(ModItems.BLUEBERRY_SEEDS, "蓝莓种子");
+        translationBuilder.add(ModItems.BLUEBERRY, "蓝莓");
+
+        translationBuilder.add(ModItems.BLUE_JAZZ_SEEDS, "蓝爵种子");
+        translationBuilder.add(ModItems.BLUE_JAZZ, "蓝爵");
+
+        translationBuilder.add(ModItems.BOK_CHOY_SEEDS, "小白菜种子");
+        translationBuilder.add(ModItems.BOK_CHOY, "小白菜");
+
+        translationBuilder.add(ModItems.BROCCOLI_SEEDS, "西兰花种子");
+        translationBuilder.add(ModItems.BROCCOLI, "西兰花");
+
+        translationBuilder.add(ModItems.CACTUS_FRUIT_SEEDS, "仙人掌种子");
+        translationBuilder.add(ModItems.CACTUS_FRUIT, "仙人掌果实");
+
+        translationBuilder.add(ModItems.CARROT_SEEDS, "胡萝卜种子");
+        translationBuilder.add(ModItems.CARROT, "胡萝卜");
+
+        translationBuilder.add(ModItems.CORN_SEEDS, "玉米种子");
+        translationBuilder.add(ModItems.CORN, "玉米");
+
+        translationBuilder.add(ModItems.CRANBERRIES_SEEDS, "蔓越莓种子");
+        translationBuilder.add(ModItems.CRANBERRIES, "蔓越莓");
+
+        translationBuilder.add(ModItems.EGGPLANT_SEEDS, "茄子种子");
+        translationBuilder.add(ModItems.EGGPLANT, "茄子");
+
+        translationBuilder.add(ModItems.FAIRY_ROSE_SEEDS, "仙人玫瑰种子");
+        translationBuilder.add(ModItems.FAIRY_ROSE, "仙人玫瑰");
+
+        translationBuilder.add(ModItems.FIBER_SEEDS, "纤维种子");
+        translationBuilder.add(ModItems.FIBER, "纤维");
+
+        translationBuilder.add(ModItems.GARLIC_SEEDS, "大蒜种子");
+        translationBuilder.add(ModItems.GARLIC, "大蒜");
+
+        translationBuilder.add(ModItems.GRAPE_SEEDS, "葡萄种子");
+        translationBuilder.add(ModItems.GRAPE, "葡萄");
+
+        translationBuilder.add(ModItems.GREEN_BEAN_SEEDS, "青豆种子");
+        translationBuilder.add(ModItems.GREEN_BEAN, "青豆");
+
+        translationBuilder.add(ModItems.HOPS_SEEDS, "啤酒花种子");
+        translationBuilder.add(ModItems.HOPS, "啤酒花");
+
+        translationBuilder.add(ModItems.HOT_PEPPER_SEEDS, "辣椒种子");
+        translationBuilder.add(ModItems.HOT_PEPPER, "辣椒");
+
+        translationBuilder.add(ModItems.KALE_SEEDS, "甘蓝种子");
+        translationBuilder.add(ModItems.KALE, "甘蓝");
+
+        translationBuilder.add(ModItems.MELON_SEEDS, "哈密瓜种子");
+        translationBuilder.add(ModItems.MELON, "哈密瓜");
+
+        translationBuilder.add(ModItems.PARSNIP_SEEDS, "防风草种子");
+        translationBuilder.add(ModItems.PARSNIP, "防风草");
+
+        translationBuilder.add(ModItems.PINEAPPLE_SEEDS, "菠萝种子");
+        translationBuilder.add(ModItems.PINEAPPLE, "菠萝");
+
+        translationBuilder.add(ModItems.POPPY_SEEDS, "虞美人种子");
+        translationBuilder.add(ModItems.POPPY, "虞美人");
+
+        translationBuilder.add(ModItems.POTATO_SEEDS, "土豆种子");
+        translationBuilder.add(ModItems.POTATO, "土豆");
+
+        translationBuilder.add(ModItems.POWDERMELON_SEEDS, "霜瓜种子");
+        translationBuilder.add(ModItems.POWDERMELON, "霜瓜");
+
+        translationBuilder.add(ModItems.PUMPKIN_SEEDS, "南瓜种子");
+        translationBuilder.add(ModItems.PUMPKIN, "南瓜");
+
+        translationBuilder.add(ModItems.QI_FRUIT_SEEDS, "齐瓜种子");
+        translationBuilder.add(ModItems.QI_FRUIT, "齐瓜");
+
+        translationBuilder.add(ModItems.RADISH_SEEDS, "萝卜种子");
+        translationBuilder.add(ModItems.RADISH, "萝卜");
+
+        translationBuilder.add(ModItems.RARE_SEEDS, "稀有种子");
+        translationBuilder.add(ModItems.RARE, "宝石甜梅");
+
+        translationBuilder.add(ModItems.RED_CABBAGE_SEEDS, "红甘蓝种子");
+        translationBuilder.add(ModItems.RED_CABBAGE, "红甘蓝");
+
+        translationBuilder.add(ModItems.RHUBARB_SEEDS, "大黄种子");
+        translationBuilder.add(ModItems.RHUBARB, "大黄");
+
+        translationBuilder.add(ModItems.RICE_SEEDS, "稻米种子");
+        translationBuilder.add(ModItems.RICE, "稻米");
+
+        translationBuilder.add(ModItems.SPANGLE_SEEDS, "夏季亮片种子");
+        translationBuilder.add(ModItems.SPANGLE, "夏季亮片");
+
+        translationBuilder.add(ModItems.STARFRUIT_SEEDS, "杨桃种子");
+        translationBuilder.add(ModItems.STARFRUIT, "杨桃");
+
+        translationBuilder.add(ModItems.STRAWBERRY_SEEDS, "草莓种子");
+        translationBuilder.add(ModItems.STRAWBERRY, "草莓");
+
+        translationBuilder.add(ModItems.SUMMER_SQUASH_SEEDS, "夏季南瓜种子");
+        translationBuilder.add(ModItems.SUMMER_SQUASH, "夏季南瓜");
+
+        translationBuilder.add(ModItems.SUNFLOWER_SEEDS, "向日葵种子");
+        translationBuilder.add(ModItems.SUNFLOWER, "向日葵");
+
+        translationBuilder.add(ModItems.TARO_ROOT, "芋头");
+        translationBuilder.add(ModItems.TARO_ROOT_SEEDS, "芋头种子");
+
+        translationBuilder.add(ModItems.TEA_LEAVES, "茶叶");
+        translationBuilder.add(ModItems.TEA_LEAVES_SEEDS, "茶叶种子");
+
+        translationBuilder.add(ModItems.TOMATO_SEEDS, "番茄种子");
+        translationBuilder.add(ModItems.TOMATO, "番茄");
+
+        translationBuilder.add(ModItems.TULIP_SEEDS, "郁金香种子");
+        translationBuilder.add(ModItems.TULIP, "郁金香");
+
+        translationBuilder.add(ModItems.WHEAT_SEEDS, "小麦种子");
+        translationBuilder.add(ModItems.WHEAT, "小麦");
+
+        translationBuilder.add(ModItems.YAM_SEEDS, "山药种子");
+        translationBuilder.add(ModItems.YAM, "山药");
 
 
 
+        //音乐唱片
+        translationBuilder.add(ModItems.CLOUD_COUNTRY_MUSIC_DISC, "云乡音乐唱片");
+        translationBuilder.add(ModItems.COUNTRY_SHOP_MUSIC_DISC, "乡村商店音乐唱片");
+        translationBuilder.add(ModItems.FAIR_THEME_MUSIC_DISC, "集市主题音乐唱片");
+        translationBuilder.add(ModItems.FALL1_MUSIC_DISC, "秋天1号音乐唱片");
+        translationBuilder.add(ModItems.FALL2_MUSIC_DISC, "秋天2号音乐唱片");
+        translationBuilder.add(ModItems.FALL3_MUSIC_DISC, "秋天3号音乐唱片");
+        translationBuilder.add(ModItems.FLOWER_DANCE_MUSIC_DISC, "花舞节音乐唱片");
+        translationBuilder.add(ModItems.FUN_FESTIVAL_MUSIC_DISC, "有趣节日音乐唱片");
+        translationBuilder.add(ModItems.GRANDPA_MUSIC_DISC, "爷爷的音乐唱片");
+        translationBuilder.add(ModItems.OVERTURE_MUSIC_DISC, "序曲音乐唱片");
+        translationBuilder.add(ModItems.PELICAN_TOWN_MUSIC_DISC, "鹈鹕镇音乐唱片");
+        translationBuilder.add(ModItems.SPRING1_MUSIC_DISC, "春天1号音乐唱片");
+        translationBuilder.add(ModItems.SPRING2_MUSIC_DISC, "春天2号音乐唱片");
+        translationBuilder.add(ModItems.SPRING3_MUSIC_DISC, "春天3号音乐唱片");
+        translationBuilder.add(ModItems.SUMMER1_MUSIC_DISC, "夏天1号音乐唱片");
+        translationBuilder.add(ModItems.SUMMER2_MUSIC_DISC, "夏天2号音乐唱片");
+        translationBuilder.add(ModItems.SUMMER3_MUSIC_DISC, "夏天3号音乐唱片");
+        translationBuilder.add(ModItems.WEDDING_CELEBRATION_MUSIC_DISC, "婚礼音乐唱片");
+        translationBuilder.add(ModItems.WINTER1_MUSIC_DISC, "冬天1号音乐唱片");
+        translationBuilder.add(ModItems.WINTER2_MUSIC_DISC, "冬天2号音乐唱片");
+        translationBuilder.add(ModItems.WINTER3_MUSIC_DISC, "冬天3号音乐唱片");
+        translationBuilder.add(ModItems.WINTER_FESTIVAL_MUSIC_DISC, "冬季节日音乐唱片");
+        translationBuilder.add(ModItems.WOOD_MUSIC_DISC, "木头音乐唱片");
 
 
 
