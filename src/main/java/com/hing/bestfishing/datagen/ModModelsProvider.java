@@ -7,8 +7,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
-import net.minecraft.data.family.BlockFamily;
-import net.minecraft.item.ArmorItem;
 import net.minecraft.state.property.Properties;
 
 public class ModModelsProvider  extends FabricModelProvider {

@@ -3,7 +3,6 @@ package com.hing.bestfishing.block.custom;
 import com.hing.bestfishing.item.ModItems;
 import net.minecraft.block.*;
 import net.minecraft.item.ItemConvertible;
-import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.state.property.Properties;
