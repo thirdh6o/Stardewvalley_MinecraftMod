@@ -43,13 +43,6 @@ public class ModPaintings {
     public static final PaintingVariant WIZARD = registerPainting("wizard", new PaintingVariant(64, 64));
 
 
-
-
-
-
-
-
-
     private static PaintingVariant registerPainting(String name,PaintingVariant paintingVariant){
         return Registry.register(Registries.PAINTING_VARIANT,new Identifier(BestFishingMod.MOD_ID,name),paintingVariant);
     }

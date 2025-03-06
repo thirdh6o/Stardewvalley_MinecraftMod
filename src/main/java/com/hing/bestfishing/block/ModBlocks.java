@@ -2,9 +2,15 @@ package com.hing.bestfishing.block;
 
 import com.hing.bestfishing.BestFishingMod;
 import com.hing.bestfishing.block.custom.*;
+
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.FlowerBlock;
+import net.minecraft.block.FlowerPotBlock;
 import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -14,6 +20,20 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
 
+
+
+
+        public static final Block BUTTERCUPS = register("buttercups",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_BUTTERCUPS = register("potted_buttercups",
+        new FlowerPotBlock(ModBlocks.BUTTERCUPS,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+
+
+
+
+        
     public static final Block CAULIFLOWER = Registry.register(Registries.BLOCK,
             new Identifier(BestFishingMod.MOD_ID, "cauliflower"),
             new CauliFlower(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
@@ -226,4 +246,7 @@ public class ModBlocks {
     public static void registerModBlocks() {
 
     }
+
+
+    
 }

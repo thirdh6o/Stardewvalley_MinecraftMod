@@ -28,6 +28,10 @@ public class ModModelsProvider  extends FabricModelProvider {
            并将其作为同家族中所有方块的材质
          */
 
+
+
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.BUTTERCUPS,ModBlocks.POTTED_BUTTERCUPS,BlockStateModelGenerator.TintType.NOT_TINTED);
+
         // 作物的模型文件需要罗列出其所有的生长阶段
         blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.AMARANTH, Properties.AGE_5, 0, 1, 2, 3, 4, 5);
@@ -80,6 +84,18 @@ public class ModModelsProvider  extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
+
+
+
+
+
+
+
+
+
+
+
 
         //音乐唱片
         itemModelGenerator.register(ModItems.CLOUD_COUNTRY_MUSIC_DISC, Models.GENERATED);

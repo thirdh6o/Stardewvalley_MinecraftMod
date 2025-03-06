@@ -5,6 +5,7 @@ import com.hing.bestfishing.item.ModItemGroups;
 import com.hing.bestfishing.item.ModItems;
 import com.hing.bestfishing.paintings.ModPaintings;
 import com.hing.bestfishing.sounds.ModSounds;
+import com.hing.bestfishing.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -28,6 +29,7 @@ public class BestFishingMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModSounds.registerSounds();
 		ModPaintings.registerPaintings();
+		ModWorldGeneration.generateModWorldGen();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

@@ -14,6 +14,11 @@ public class BestFishingModClient implements ClientModInitializer {
 		   getTranslucent为半透明材质使用，如各类染色玻璃及玻璃板
 		   另外，这个也可以通过Mixin原版的RenderLayer类实现
 		 */
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BUTTERCUPS,RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_BUTTERCUPS,RenderLayer.getCutout());
+
+
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POWDERMELON, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CAULIFLOWER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.AMARANTH, RenderLayer.getCutout());

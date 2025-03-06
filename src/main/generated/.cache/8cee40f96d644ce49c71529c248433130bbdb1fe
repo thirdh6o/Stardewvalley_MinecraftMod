@@ -1,8 +1,8 @@
-// 1.20	2025-03-06T15:19:10.1614529	BestFishing-Mod/Model Definitions
+// 1.20	2025-03-06T22:56:21.502263	BestFishing-Mod/Model Definitions
 2367b2d6374acbbd707ef26e378ad6b3b5b3bf9e assets\bestfishing-mod\models\item\shiyu.json
 568f6a61a4b5e60ce45d6969b005f795e1c19b55 assets\bestfishing-mod\models\block\rhubarb_stage5.json
-84bb33271f6b5d182ae25e363f3d7431e19fa767 assets\bestfishing-mod\models\item\rice.json
 77b3fcf235891066b4cf10f7946e7bb013524c24 assets\bestfishing-mod\models\item\beet_seeds.json
+84bb33271f6b5d182ae25e363f3d7431e19fa767 assets\bestfishing-mod\models\item\rice.json
 5af89b66fc679fd4821dc1b59e91329474040ad8 assets\bestfishing-mod\models\item\pumpkin_seeds.json
 52d78b43bd464f46f1e35c7dd86131abd541cf0f assets\bestfishing-mod\models\block\green_bean_stage1.json
 7a0143fd129ac79a86695f5c005debe75a081cc8 assets\bestfishing-mod\blockstates\blueberry.json
@@ -40,6 +40,7 @@ bb728f62bf2bbb6fd4d935e532a5cdaf98451082 assets\bestfishing-mod\models\item\bok_
 e27a0b5a8fb4e7bd686e767e79d963dc4bb74662 assets\bestfishing-mod\models\item\trash.json
 8aa0bedc5126decf06bbf861fd75ce62e21ad49b assets\bestfishing-mod\models\block\poppy_stage3.json
 771b15e4791303347148a9598e4e5deea4807660 assets\bestfishing-mod\models\block\hot_pepper_stage5.json
+f87290c4d4f9d1b76a0534999477a4d549d9cef1 assets\bestfishing-mod\blockstates\potted_buttercups.json
 5eb376d0d517caa7e5898e55a7209b586dd50635 assets\bestfishing-mod\models\block\corn_stage3.json
 e6727f1fcf86f97e72fa191ba49a455020c05808 assets\bestfishing-mod\models\item\summer2_music_disc.json
 7fd9518c47310061ce20e07ef3c17d211c550916 assets\bestfishing-mod\models\item\wuyeyouyu.json
@@ -133,8 +134,8 @@ e73dea65111470bf23169da7dc124170b2198343 assets\bestfishing-mod\models\item\huwe
 931ee965be9da78d3392d6ab7a1d474d342cb587 assets\bestfishing-mod\models\block\kale_stage2.json
 b09c96cbedbad5f028000ef7182e484c8ae2870d assets\bestfishing-mod\models\item\lava_katana.json
 1caffb7a21da29af6e1bb439742dfd5e9ab88626 assets\bestfishing-mod\models\block\eggplant_stage2.json
-dea2afcd5fa7287dddcec0a4d6fd25b39c11bb35 assets\bestfishing-mod\models\item\youlingyu.json
 f6264948c6b1cb6216fdb69036a7caf8e25b8933 assets\bestfishing-mod\models\item\xunyu.json
+dea2afcd5fa7287dddcec0a4d6fd25b39c11bb35 assets\bestfishing-mod\models\item\youlingyu.json
 c626acf23f04d0d9cd060150b41b35549cd2e946 assets\bestfishing-mod\models\block\potato_stage3.json
 dd5b7faaca74d4f44db1c9cec26aaa629abd5ead assets\bestfishing-mod\models\item\spangle_seeds.json
 93e2c382a69253644b90b067f2f2530c172cd1e1 assets\bestfishing-mod\models\block\hops_stage4.json
@@ -159,8 +160,8 @@ c63d97af216f02df253be9a9ead99c6e74d02417 assets\bestfishing-mod\models\block\bro
 19aa6c90f0ca41089eebda3e6395b70ea44b856a assets\bestfishing-mod\models\item\luofeiyu.json
 5b300d8f994521fa470fc6213192213f9f182809 assets\bestfishing-mod\models\item\infinity_blade.json
 25bdd08463ea5eb30508a983b701c19593b416e2 assets\bestfishing-mod\models\item\gouyu.json
-98da700c388f8d2170b74a14ffc75fb610da9a39 assets\bestfishing-mod\models\item\qinghuayu.json
 85abf9710bcfa2a17b919b86c2d696ce1d255584 assets\bestfishing-mod\models\block\summer_squash_stage4.json
+98da700c388f8d2170b74a14ffc75fb610da9a39 assets\bestfishing-mod\models\item\qinghuayu.json
 fc406d34ea576893766c1b2a6329e2a3d1a0819d assets\bestfishing-mod\models\block\green_bean_stage2.json
 3e08a7073c04a880ac472c34c6b6934478256bec assets\bestfishing-mod\models\block\wheat_stage1.json
 b046a612aed28a13e6f0f8b6113566843d537278 assets\bestfishing-mod\models\block\hops_stage0.json
@@ -173,6 +174,7 @@ e9b43fb642ce1c6cacb4b5197944fd25e895a7b2 assets\bestfishing-mod\models\block\spa
 a8617d5067b66f3e4293fb8ff6d9de320471f351 assets\bestfishing-mod\models\item\winter2_music_disc.json
 4907d96e8f4122f26f37eeb0892baec895c49f64 assets\bestfishing-mod\models\block\radish_stage0.json
 3bc4ec406771cfd181c43278a79a598151382b7b assets\bestfishing-mod\models\block\summer_squash_stage2.json
+3c7df62e11032caea513276fd2304c78141b503c assets\bestfishing-mod\blockstates\buttercups.json
 b4fba808687ee0bdb793d07dbffd4ee844686fa5 assets\bestfishing-mod\models\item\fair_theme_music_disc.json
 14494122e738c5eb547f9451720065bc8e33d46a assets\bestfishing-mod\models\block\tea_stage0.json
 1f97df1922382720711498eedc4ebe277b350514 assets\bestfishing-mod\models\item\datouyu.json
@@ -222,8 +224,8 @@ b3170224887c5bf5e457bc0b130d1a4d94c8ea3b assets\bestfishing-mod\models\item\gran
 42d28ff569ccc07f988659b17fff86093836d64f assets\bestfishing-mod\models\item\sunflower.json
 574e8e96f5141a2fb102af30830acbe11b388c14 assets\bestfishing-mod\models\item\nianyu.json
 3e7251334a18af72b8f4e5e9f32968ee4e3fb180 assets\bestfishing-mod\models\item\carrot_seeds.json
-835e1529224fdb57d4d7ae9027446799cae5efee assets\bestfishing-mod\models\block\taro_root_stage2.json
 5d7fb1edd9a4e0883c958e0b9dc9ecb16f5d9660 assets\bestfishing-mod\models\item\fangshexingliyu.json
+835e1529224fdb57d4d7ae9027446799cae5efee assets\bestfishing-mod\models\block\taro_root_stage2.json
 35cb9d3f0a3092d38bbcb17cabbb2913238d1d84 assets\bestfishing-mod\models\block\beet_stage5.json
 abff40831144dfeac19e7c401bd5b091e60d1d94 assets\bestfishing-mod\models\block\corn_stage5.json
 603aa6a2017126a6cccd12adaecb03b2745be64f assets\bestfishing-mod\models\block\hot_pepper_stage3.json
@@ -345,6 +347,7 @@ cf686dfb27884cc7c45ef02f6f998573d6c01505 assets\bestfishing-mod\models\item\pump
 feca4b1a993c303a49cdc3cf6280a14a31c1884f assets\bestfishing-mod\models\block\qi_fruit_stage3.json
 af68bb2a8dbf544ea070b6b169b3edc16093c00b assets\bestfishing-mod\models\item\galaxy_sword.json
 e5a52f8839582319012ae66406ce98ada452628e assets\bestfishing-mod\models\block\poppy_stage1.json
+361a40a91c5088f07bea769dc073104cd1514a15 assets\bestfishing-mod\models\item\buttercups.json
 95a9e0c564d5a4ffae9c16063d3618b78422aff1 assets\bestfishing-mod\models\item\hongjiyu.json
 4cd30e4a76df30d177b19848886f6d938bf85f42 assets\bestfishing-mod\models\item\radish.json
 9f5ab0077b4cfa6c5d19dc7df1c798826e3d0932 assets\bestfishing-mod\models\item\leahs_whittler.json
@@ -352,8 +355,8 @@ a8cadf2ffc9393729d5bf91fd35b20b65f856bd9 assets\bestfishing-mod\models\item\peli
 235a602b49ef5c5a42e7af2bd3e04f335fd9776d assets\bestfishing-mod\models\block\sunflower_stage1.json
 8f0b7644ad2ddfde66b0d073e5694d00fc19f631 assets\bestfishing-mod\models\item\forest_sword.json
 803d1158590b16955559840d9ce909faf0bff3f6 assets\bestfishing-mod\models\item\fun_festival_music_disc.json
-bd17a126808231920ad665ee28c71f1808307296 assets\bestfishing-mod\models\item\yam.json
 cf85c3e9a04b0d5f4c939f989992fa3262aed02a assets\bestfishing-mod\models\item\taiyangyu.json
+bd17a126808231920ad665ee28c71f1808307296 assets\bestfishing-mod\models\item\yam.json
 7dae90c0d2b3d50adce111fd614a73333252c260 assets\bestfishing-mod\models\item\feihongyuzhizi.json
 5b549d20f91e8d7ef69cc553132cc1f9f95121aa assets\bestfishing-mod\models\item\strawberry.json
 5f10ed928d6a8c4a3a985c9cef93f7182888e264 assets\bestfishing-mod\models\item\artichoke_seeds.json
@@ -391,10 +394,11 @@ e014741406742f44f568a37276d9d4eb85b1964a assets\bestfishing-mod\models\item\hops
 023960d738ffa5e5cb4286538338558b033a623f assets\bestfishing-mod\blockstates\tomato.json
 9f4a217fdae806501ffc6e20b9feb9d0e472ba6e assets\bestfishing-mod\models\block\poppy_stage2.json
 19b17fdfb4dd4391d14dd55705c2282ed4a9c546 assets\bestfishing-mod\blockstates\cauliflower.json
-aa2c77c8a6138f999aeb8e82a1003abc72753822 assets\bestfishing-mod\blockstates\garlic.json
 e97be011e65f4f6bf57dc7ea4cb2d4f825ccaf73 assets\bestfishing-mod\models\item\amaranth.json
+aa2c77c8a6138f999aeb8e82a1003abc72753822 assets\bestfishing-mod\blockstates\garlic.json
 ac2e199e4e3475ee86cb09f8364ecaa30a598b5d assets\bestfishing-mod\models\item\artichoke.json
 9c0a7468204cb1caf925e02851c66fa66585cf47 assets\bestfishing-mod\models\block\rhubarb_stage3.json
+a6a485c4ec54cec0185df90dcd35e237413e97e1 assets\bestfishing-mod\models\block\buttercups.json
 ef8d0b08cdc1d6111f18dda9b06c83ca5aed04d5 assets\bestfishing-mod\models\block\blue_jazz_stage2.json
 c6f783de86348342b04111efeaa4495a93a1f5be assets\bestfishing-mod\models\block\starfruit_stage2.json
 ddea699404462b05c64f8cb2457834c3805b1054 assets\bestfishing-mod\models\item\grape.json
@@ -435,6 +439,7 @@ ecf004e91ccd67d7220ed340e7b222dcf47f3b32 assets\bestfishing-mod\models\item\hong
 e2c2735c236d97335c5ec2614a57757f7f5c3b60 assets\bestfishing-mod\models\block\eggplant_stage1.json
 9cf99be1846f13a2e092a5b9a16eb72926f0c274 assets\bestfishing-mod\models\block\fairy_rose_stage0.json
 b27d5fb408b4dd5099c2813c70c9c7a78ea3684c assets\bestfishing-mod\models\block\sunflower_stage3.json
+d5f0fdf7090585b4a72bebc521f636a0eea49e42 assets\bestfishing-mod\models\block\potted_buttercups.json
 85cc986117e1336f3dcebf5f160ad1ae3437e252 assets\bestfishing-mod\blockstates\red_cabbage.json
 4442b0fd0d58d6e3e52755f84de0d6775a034a02 assets\bestfishing-mod\blockstates\corn.json
 bc74e85608ae84383dee37f47360372f3f774fc6 assets\bestfishing-mod\models\block\tomato_stage3.json
@@ -479,6 +484,7 @@ f7c78d0f8ed5743ce315bf1c353b1dfdefc955e0 assets\bestfishing-mod\blockstates\unmi
 a0661e99948f88d59057464c7b1c10e2aa0dccc2 assets\bestfishing-mod\models\block\ancient_fruit_stage4.json
 fdd4b6282b0ca34d60fd5eb4c9802e7aaddcb36f assets\bestfishing-mod\models\block\radish_stage3.json
 61e155bb1f51a3d37e9781c1c3e01d5f3c328422 assets\bestfishing-mod\models\block\red_cabbage_stage3.json
+97069a73c5be484d5d7c6d5b2c6cd76bf63a4ab2 assets\bestfishing-mod\models\item\potted_buttercups.json
 c0e9661a3621c3631bf6a54a9a075b863109c43d assets\bestfishing-mod\models\item\fiber_seeds.json
 6c722e5e042fbd549dc5ac9216f093d4e65f822b assets\bestfishing-mod\models\block\fiber_stage1.json
 dd5ffc3e72413bca60b742cbeb79c41a2e40b1c0 assets\bestfishing-mod\models\block\yam_stage5.json
