@@ -16,6 +16,7 @@ public class ModItemGroups {
     public static final RegistryKey<ItemGroup> FARM_GROUP = register("farm_group");
     public static final RegistryKey<ItemGroup> COMBAT_GROUP = register("combat_group");
     public static final RegistryKey<ItemGroup> MUSIC_DISC_GROUP = register("music_disc_group");
+    public static final RegistryKey<ItemGroup> FLOWER_GROUP = register("flower_group");
 
 
     private static RegistryKey<ItemGroup> register(String id) {
@@ -280,6 +281,16 @@ public class ModItemGroups {
 
                         }
                         ).build());
+
+         Registry.register( Registries.ITEM_GROUP,
+                        MUSIC_DISC_GROUP,
+                        ItemGroup.create(ItemGroup.Row.TOP, 8)
+                                .displayName(Text.translatable("itemGroup..music_disc_group"))
+                        .icon(() -> new ItemStack(ModItems.CLOUD_COUNTRY_MUSIC_DISC))
+                                .entries((displayContext, entries) -> {
+                                    entries.add(ModItems.COUNTRY_SHOP_MUSIC_DISC);
+                                }
+                                ).build());
 
 
 

@@ -22,6 +22,7 @@ public class ModEnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.farm_group","StardewValley Farming Group");
         translationBuilder.add("itemGroup.combat_group","StardewValley Combat Group");
         translationBuilder.add("itemGroup.music_disc_group","StardewValley Music Disc Group");
+        translationBuilder.add("itemGroup.flower_group","StardewValley Flower Group");
         translationBuilder.add(ModItems.SHENGYUPIAN, "Sashimi");
 
 

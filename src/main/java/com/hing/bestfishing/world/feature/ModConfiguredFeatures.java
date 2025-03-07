@@ -29,8 +29,7 @@ public class ModConfiguredFeatures {
     }
 
 
-    private static <FC extends FeatureConfig,F extends Feature<FC>> void register(Registerable<ConfiguredFeature<?,?>> context,
-    RegistryKey<ConfiguredFeature<?,?>> key, F feature, FC cofiguration){
-context.register(key,new ConfiguredFeature<>(feature,cofiguration));
+    private static <FC extends FeatureConfig,F extends Feature<FC>> void register(Registerable<ConfiguredFeature<?,?>> context, RegistryKey<ConfiguredFeature<?,?>> key, F feature, FC cofiguration){
+        context.register(key,new ConfiguredFeature<>(feature,cofiguration));
 }
 }

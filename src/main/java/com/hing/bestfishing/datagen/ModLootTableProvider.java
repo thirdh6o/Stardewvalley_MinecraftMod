@@ -14,7 +14,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public ModLootTableProvider(FabricDataOutput dataOutput) {
         super(dataOutput);
     }
-    //TODO: Add loot tables
     @Override
     public void generate() {
 
