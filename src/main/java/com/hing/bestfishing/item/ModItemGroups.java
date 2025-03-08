@@ -1,6 +1,7 @@
 package com.hing.bestfishing.item;
 
 import com.hing.bestfishing.BestFishingMod;
+import com.hing.bestfishing.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -251,7 +252,7 @@ public class ModItemGroups {
         Registry.register( Registries.ITEM_GROUP,
                 MUSIC_DISC_GROUP,
                 ItemGroup.create(ItemGroup.Row.TOP, 8)
-                        .displayName(Text.translatable("itemGroup..music_disc_group"))
+                        .displayName(Text.translatable("itemGroup.music_disc_group"))
                 .icon(() -> new ItemStack(ModItems.CLOUD_COUNTRY_MUSIC_DISC))
                         .entries((displayContext, entries) -> {
                                     entries.add(ModItems.CLOUD_COUNTRY_MUSIC_DISC);
@@ -282,27 +283,38 @@ public class ModItemGroups {
                         }
                         ).build());
 
-         Registry.register( Registries.ITEM_GROUP,
-                        MUSIC_DISC_GROUP,
-                        ItemGroup.create(ItemGroup.Row.TOP, 8)
-                                .displayName(Text.translatable("itemGroup..music_disc_group"))
-                        .icon(() -> new ItemStack(ModItems.CLOUD_COUNTRY_MUSIC_DISC))
-                                .entries((displayContext, entries) -> {
-                                    entries.add(ModItems.COUNTRY_SHOP_MUSIC_DISC);
-                                }
-                                ).build());
-
-
-
-
-
-
-
-
-
-
-
-
+        Registry.register(Registries.ITEM_GROUP,
+                FLOWER_GROUP,
+                ItemGroup.create(ItemGroup.Row.TOP, 8)
+                        .displayName(Text.translatable("itemGroup.flower_group"))
+                        .icon(() -> new ItemStack(ModBlocks.SWEET_PEA))
+                        .entries((displayContext, entries) -> {
+                            entries.add(ModBlocks.BLACKBERRY);
+                            entries.add(ModBlocks.CAVE_CARROT);
+                            entries.add(ModBlocks.CHANTERELLE);
+                            entries.add(ModBlocks.COCONUT);
+                            entries.add(ModBlocks.COMMON_MUSHROOM);
+                            entries.add(ModBlocks.CROCUS);
+                            entries.add(ModBlocks.CRYSTAL_FRUIT);
+                            entries.add(ModBlocks.DAFFODIL);
+                            entries.add(ModBlocks.DANDELION);
+                            entries.add(ModBlocks.FIDDLEHEAD_FERN);
+                            entries.add(ModBlocks.GINGER);
+                            entries.add(ModBlocks.HAZELNUT);
+                            entries.add(ModBlocks.HOLLY);
+                            entries.add(ModBlocks.LEEK);
+                            entries.add(ModBlocks.MOREL);
+                            entries.add(ModBlocks.PURPLE_MUSHROOM);
+                            entries.add(ModBlocks.RED_MUSHROOM);
+                            entries.add(ModBlocks.SALMONBERRY);
+                            entries.add(ModBlocks.SNOW_YAM);
+                            entries.add(ModBlocks.SPICE_BERRY);
+                            entries.add(ModBlocks.SPRING_ONION);
+                            entries.add(ModBlocks.SWEET_PEA);
+                            entries.add(ModBlocks.WILD_HORSERADISH);
+                            entries.add(ModBlocks.WILD_PLUM);
+                            entries.add(ModBlocks.WINTER_ROOT);
+                        }).build());
 
     }
 

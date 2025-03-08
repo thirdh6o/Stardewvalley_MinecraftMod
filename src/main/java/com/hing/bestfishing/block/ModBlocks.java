@@ -23,18 +23,167 @@ public class ModBlocks {
 
 
 
-        public static final Block BUTTERCUPS = register("buttercups",
+
+        public static final Block BLACKBERRY = register("blackberry",
         new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
 
-        public static final Block POTTED_BUTTERCUPS = register("potted_buttercups",
-        new FlowerPotBlock(ModBlocks.BUTTERCUPS,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+        public static final Block POTTED_BLACKBERRY = register("potted_blackberry",
+        new FlowerPotBlock(ModBlocks.BLACKBERRY,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block CAVE_CARROT = register("cave_carrot",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_CAVE_CARROT = register("potted_cave_carrot",
+        new FlowerPotBlock(ModBlocks.CAVE_CARROT,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block COCONUT = register("coconut",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_COCONUT = register("potted_coconut",
+        new FlowerPotBlock(ModBlocks.COCONUT,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block CRYSTAL_FRUIT = register("crystal_fruit",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_CRYSTAL_FRUIT = register("potted_crystal_fruit",
+        new FlowerPotBlock(ModBlocks.CRYSTAL_FRUIT,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block DANDELION = register("dandelion",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_DANDELION = register("potted_dandelion",
+        new FlowerPotBlock(ModBlocks.DANDELION,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block RED_MUSHROOM = register("red_mushroom",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_RED_MUSHROOM = register("potted_red_mushroom",
+        new FlowerPotBlock(ModBlocks.RED_MUSHROOM,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+
+        public static final Block CHANTERELLE = register("chanterelle",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_CHANTERELLE = register("potted_chanterelle",
+        new FlowerPotBlock(ModBlocks.CHANTERELLE,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+
+        public static final Block COMMON_MUSHROOM = register("common_mushroom",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_COMMON_MUSHROOM = register("potted_common_mushroom",
+        new FlowerPotBlock(ModBlocks.COMMON_MUSHROOM,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block CROCUS = register("crocus",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_CROCUS = register("potted_crocus",
+        new FlowerPotBlock(ModBlocks.CROCUS,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+
+        public static final Block DAFFODIL = register("daffodil",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_DAFFODIL = register("potted_daffodil",
+        new FlowerPotBlock(ModBlocks.DAFFODIL,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+
+        public static final Block FIDDLEHEAD_FERN = register("fiddlehead_fern",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_FIDDLEHEAD_FERN = register("potted_fiddlehead_fern",
+        new FlowerPotBlock(ModBlocks.FIDDLEHEAD_FERN,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block GINGER = register("ginger",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_GINGER = register("potted_ginger",
+        new FlowerPotBlock(ModBlocks.GINGER,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+
+        public static final Block HAZELNUT = register("hazelnut",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_HAZELNUT = register("potted_hazelnut",
+        new FlowerPotBlock(ModBlocks.HAZELNUT,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block HOLLY = register("holly",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_HOLLY = register("potted_holly",
+        new FlowerPotBlock(ModBlocks.HOLLY,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block LEEK = register("leek",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_LEEK = register("potted_leek",
+        new FlowerPotBlock(ModBlocks.LEEK,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block MOREL = register("morel",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_MOREL = register("potted_morel",
+        new FlowerPotBlock(ModBlocks.MOREL,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block PURPLE_MUSHROOM = register("purple_mushroom",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_PURPLE_MUSHROOM = register("potted_purple_mushroom",
+        new FlowerPotBlock(ModBlocks.PURPLE_MUSHROOM,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block SALMONBERRY = register("salmonberry",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_SALMONBERRY = register("potted_salmonberry",
+        new FlowerPotBlock(ModBlocks.SALMONBERRY,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block SNOW_YAM = register("snow_yam",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_SNOW_YAM = register("potted_snow_yam",
+        new FlowerPotBlock(ModBlocks.SNOW_YAM,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block SPICE_BERRY = register("spice_berry",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_SPICE_BERRY = register("potted_spice_berry",
+        new FlowerPotBlock(ModBlocks.SPICE_BERRY,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block SPRING_ONION = register("spring_onion",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_SPRING_ONION = register("potted_spring_onion",
+        new FlowerPotBlock(ModBlocks.SPRING_ONION,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block SWEET_PEA = register("sweet_pea",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_SWEET_PEA = register("potted_sweet_pea",
+        new FlowerPotBlock(ModBlocks.SWEET_PEA,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block WILD_HORSERADISH = register("wild_horseradish",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_WILD_HORSERADISH = register("potted_wild_horseradish",
+        new FlowerPotBlock(ModBlocks.WILD_HORSERADISH,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block WILD_PLUM = register("wild_plum",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_WILD_PLUM = register("potted_wild_plum",
+        new FlowerPotBlock(ModBlocks.WILD_PLUM,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
+
+        public static final Block WINTER_ROOT = register("winter_root",
+        new FlowerBlock(StatusEffects.HASTE,8,FabricBlockSettings.copyOf(Blocks.DANDELION)));
+
+        public static final Block POTTED_WINTER_ROOT = register("potted_winter_root",
+        new FlowerPotBlock(ModBlocks.WINTER_ROOT,FabricBlockSettings.copyOf(Blocks.POTTED_DANDELION)));
 
 
 
 
 
-        
-    public static final Block CAULIFLOWER = Registry.register(Registries.BLOCK,
+        public static final Block CAULIFLOWER = Registry.register(Registries.BLOCK,
             new Identifier(BestFishingMod.MOD_ID, "cauliflower"),
             new CauliFlower(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 

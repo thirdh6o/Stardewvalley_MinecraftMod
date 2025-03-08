@@ -26,6 +26,61 @@ public class ModEnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.SHENGYUPIAN, "Sashimi");
 
 
+                // ... 其他代码保持不变 ...
+
+        // 采集翻译
+        translationBuilder.add(ModBlocks.BLACKBERRY, "Blackberry");
+        translationBuilder.add(ModBlocks.POTTED_BLACKBERRY, "Potted Blackberry");
+        translationBuilder.add(ModBlocks.CAVE_CARROT, "Cave Carrot");
+        translationBuilder.add(ModBlocks.POTTED_CAVE_CARROT, "Potted Cave Carrot");
+        translationBuilder.add(ModBlocks.CHANTERELLE, "Chanterelle");
+        translationBuilder.add(ModBlocks.POTTED_CHANTERELLE, "Potted Chanterelle");
+        translationBuilder.add(ModBlocks.COCONUT, "Coconut");
+        translationBuilder.add(ModBlocks.POTTED_COCONUT, "Potted Coconut");
+        translationBuilder.add(ModBlocks.COMMON_MUSHROOM, "Common Mushroom");
+        translationBuilder.add(ModBlocks.POTTED_COMMON_MUSHROOM, "Potted Common Mushroom");
+        translationBuilder.add(ModBlocks.CROCUS, "Crocus");
+        translationBuilder.add(ModBlocks.POTTED_CROCUS, "Potted Crocus");
+        translationBuilder.add(ModBlocks.CRYSTAL_FRUIT, "Crystal Fruit");
+        translationBuilder.add(ModBlocks.POTTED_CRYSTAL_FRUIT, "Potted Crystal Fruit");
+        translationBuilder.add(ModBlocks.DAFFODIL, "Daffodil");
+        translationBuilder.add(ModBlocks.POTTED_DAFFODIL, "Potted Daffodil");
+        translationBuilder.add(ModBlocks.DANDELION, "Dandelion");
+        translationBuilder.add(ModBlocks.POTTED_DANDELION, "Potted Dandelion");
+        translationBuilder.add(ModBlocks.FIDDLEHEAD_FERN, "Fiddlehead Fern");
+        translationBuilder.add(ModBlocks.POTTED_FIDDLEHEAD_FERN, "Potted Fiddlehead Fern");
+        translationBuilder.add(ModBlocks.GINGER, "Ginger");
+        translationBuilder.add(ModBlocks.POTTED_GINGER, "Potted Ginger");
+        translationBuilder.add(ModBlocks.HAZELNUT, "Hazelnut");
+        translationBuilder.add(ModBlocks.POTTED_HAZELNUT, "Potted Hazelnut");
+        translationBuilder.add(ModBlocks.HOLLY, "Holly");
+        translationBuilder.add(ModBlocks.POTTED_HOLLY, "Potted Holly");
+        translationBuilder.add(ModBlocks.LEEK, "Leek");
+        translationBuilder.add(ModBlocks.POTTED_LEEK, "Potted Leek");
+        translationBuilder.add(ModBlocks.MOREL, "Morel");
+        translationBuilder.add(ModBlocks.POTTED_MOREL, "Potted Morel");
+        translationBuilder.add(ModBlocks.PURPLE_MUSHROOM, "Purple Mushroom");
+        translationBuilder.add(ModBlocks.POTTED_PURPLE_MUSHROOM, "Potted Purple Mushroom");
+        translationBuilder.add(ModBlocks.RED_MUSHROOM, "Red Mushroom");
+        translationBuilder.add(ModBlocks.POTTED_RED_MUSHROOM, "Potted Red Mushroom");
+        translationBuilder.add(ModBlocks.SALMONBERRY, "Salmonberry");
+        translationBuilder.add(ModBlocks.POTTED_SALMONBERRY, "Potted Salmonberry");
+        translationBuilder.add(ModBlocks.SNOW_YAM, "Snow Yam");
+        translationBuilder.add(ModBlocks.POTTED_SNOW_YAM, "Potted Snow Yam");
+        translationBuilder.add(ModBlocks.SPICE_BERRY, "Spice Berry");
+        translationBuilder.add(ModBlocks.POTTED_SPICE_BERRY, "Potted Spice Berry");
+        translationBuilder.add(ModBlocks.SPRING_ONION, "Spring Onion");
+        translationBuilder.add(ModBlocks.POTTED_SPRING_ONION, "Potted Spring Onion");
+        translationBuilder.add(ModBlocks.SWEET_PEA, "Sweet Pea");
+        translationBuilder.add(ModBlocks.POTTED_SWEET_PEA, "Potted Sweet Pea");
+        translationBuilder.add(ModBlocks.WILD_HORSERADISH, "Wild Horseradish");
+        translationBuilder.add(ModBlocks.POTTED_WILD_HORSERADISH, "Potted Wild Horseradish");
+        translationBuilder.add(ModBlocks.WILD_PLUM, "Wild Plum");
+        translationBuilder.add(ModBlocks.POTTED_WILD_PLUM, "Potted Wild Plum");
+        translationBuilder.add(ModBlocks.WINTER_ROOT, "Winter Root");
+        translationBuilder.add(ModBlocks.POTTED_WINTER_ROOT, "Potted Winter Root");
+
+
         //种植
         translationBuilder.add(ModItems.CAULIFLOWER_SEEDS, "Cauliflower Seeds");
         translationBuilder.add(ModItems.CAULIFLOWER, "Cauliflower");

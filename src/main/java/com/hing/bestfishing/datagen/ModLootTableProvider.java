@@ -24,6 +24,69 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
            不带种子的作物可以参考POTATO、CARROT等作物的掉落物
          */
 
+
+         //
+
+        // ... 其他代码保持不变 ...
+
+        // 采集物掉落设置
+        addDrop(ModBlocks.BLACKBERRY);
+        addDrop(ModBlocks.CAVE_CARROT);
+        addDrop(ModBlocks.CHANTERELLE);
+        addDrop(ModBlocks.COCONUT);
+        addDrop(ModBlocks.COMMON_MUSHROOM);
+        addDrop(ModBlocks.CROCUS);
+        addDrop(ModBlocks.CRYSTAL_FRUIT);
+        addDrop(ModBlocks.DAFFODIL);
+        addDrop(ModBlocks.DANDELION);
+        addDrop(ModBlocks.FIDDLEHEAD_FERN);
+        addDrop(ModBlocks.GINGER);
+        addDrop(ModBlocks.HAZELNUT);
+        addDrop(ModBlocks.HOLLY);
+        addDrop(ModBlocks.LEEK);
+        addDrop(ModBlocks.MOREL);
+        addDrop(ModBlocks.PURPLE_MUSHROOM);
+        addDrop(ModBlocks.RED_MUSHROOM);
+        addDrop(ModBlocks.SALMONBERRY);
+        addDrop(ModBlocks.SNOW_YAM);
+        addDrop(ModBlocks.SPICE_BERRY);
+        addDrop(ModBlocks.SPRING_ONION);
+        addDrop(ModBlocks.SWEET_PEA);
+        addDrop(ModBlocks.WILD_HORSERADISH);
+        addDrop(ModBlocks.WILD_PLUM);
+        addDrop(ModBlocks.WINTER_ROOT);
+
+        // 同时添加花盆版本的掉落
+
+
+        // 花盆版本掉落物设置 - 改为分别掉落花盆和植物本身
+        addPottedPlantDrops(ModBlocks.POTTED_BLACKBERRY);
+        addPottedPlantDrops(ModBlocks.POTTED_CAVE_CARROT);
+        addPottedPlantDrops(ModBlocks.POTTED_CHANTERELLE);
+        addPottedPlantDrops(ModBlocks.POTTED_COCONUT);
+        addPottedPlantDrops(ModBlocks.POTTED_COMMON_MUSHROOM);
+        addPottedPlantDrops(ModBlocks.POTTED_CROCUS);
+        addPottedPlantDrops(ModBlocks.POTTED_CRYSTAL_FRUIT);
+        addPottedPlantDrops(ModBlocks.POTTED_DAFFODIL);
+        addPottedPlantDrops(ModBlocks.POTTED_DANDELION);
+        addPottedPlantDrops(ModBlocks.POTTED_FIDDLEHEAD_FERN);
+        addPottedPlantDrops(ModBlocks.POTTED_GINGER);
+        addPottedPlantDrops(ModBlocks.POTTED_HAZELNUT);
+        addPottedPlantDrops(ModBlocks.POTTED_HOLLY);
+        addPottedPlantDrops(ModBlocks.POTTED_LEEK);
+        addPottedPlantDrops(ModBlocks.POTTED_MOREL);
+        addPottedPlantDrops(ModBlocks.POTTED_PURPLE_MUSHROOM);
+        addPottedPlantDrops(ModBlocks.POTTED_RED_MUSHROOM);
+        addPottedPlantDrops(ModBlocks.POTTED_SALMONBERRY);
+        addPottedPlantDrops(ModBlocks.POTTED_SNOW_YAM);
+        addPottedPlantDrops(ModBlocks.POTTED_SPICE_BERRY);
+        addPottedPlantDrops(ModBlocks.POTTED_SPRING_ONION);
+        addPottedPlantDrops(ModBlocks.POTTED_SWEET_PEA);
+        addPottedPlantDrops(ModBlocks.POTTED_WILD_HORSERADISH);
+        addPottedPlantDrops(ModBlocks.POTTED_WILD_PLUM);
+        addPottedPlantDrops(ModBlocks.POTTED_WINTER_ROOT);
+
+
         BlockStatePropertyLootCondition.Builder builder0 =
                 BlockStatePropertyLootCondition.builder(ModBlocks.POWDERMELON)
                         .properties(StatePredicate.Builder.create().exactMatch(CauliFlower.AGE, 5));

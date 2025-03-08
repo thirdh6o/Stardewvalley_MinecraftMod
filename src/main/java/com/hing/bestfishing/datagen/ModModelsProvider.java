@@ -27,10 +27,34 @@ public class ModModelsProvider  extends FabricModelProvider {
            其中的registerCubeAllModelTexturePool方法获取的是基础方块的材质
            并将其作为同家族中所有方块的材质
          */
+        // 花盆植物注册
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.BLACKBERRY, ModBlocks.POTTED_BLACKBERRY, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CAVE_CARROT, ModBlocks.POTTED_CAVE_CARROT, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CHANTERELLE, ModBlocks.POTTED_CHANTERELLE, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.COCONUT, ModBlocks.POTTED_COCONUT, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.COMMON_MUSHROOM, ModBlocks.POTTED_COMMON_MUSHROOM, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CROCUS, ModBlocks.POTTED_CROCUS, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CRYSTAL_FRUIT, ModBlocks.POTTED_CRYSTAL_FRUIT, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DAFFODIL, ModBlocks.POTTED_DAFFODIL, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DANDELION, ModBlocks.POTTED_DANDELION, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.FIDDLEHEAD_FERN, ModBlocks.POTTED_FIDDLEHEAD_FERN, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.GINGER, ModBlocks.POTTED_GINGER, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.HAZELNUT, ModBlocks.POTTED_HAZELNUT, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.HOLLY, ModBlocks.POTTED_HOLLY, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.LEEK, ModBlocks.POTTED_LEEK, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.MOREL, ModBlocks.POTTED_MOREL, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.PURPLE_MUSHROOM, ModBlocks.POTTED_PURPLE_MUSHROOM, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.RED_MUSHROOM, ModBlocks.POTTED_RED_MUSHROOM, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.SALMONBERRY, ModBlocks.POTTED_SALMONBERRY, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.SNOW_YAM, ModBlocks.POTTED_SNOW_YAM, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.SPICE_BERRY, ModBlocks.POTTED_SPICE_BERRY, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.SPRING_ONION, ModBlocks.POTTED_SPRING_ONION, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.SWEET_PEA, ModBlocks.POTTED_SWEET_PEA, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.WILD_HORSERADISH, ModBlocks.POTTED_WILD_HORSERADISH, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.WILD_PLUM, ModBlocks.POTTED_WILD_PLUM, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.WINTER_ROOT, ModBlocks.POTTED_WINTER_ROOT, BlockStateModelGenerator.TintType.NOT_TINTED);
 
 
-
-        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.BUTTERCUPS,ModBlocks.POTTED_BUTTERCUPS,BlockStateModelGenerator.TintType.NOT_TINTED);
 
         // 作物的模型文件需要罗列出其所有的生长阶段
         blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER, Properties.AGE_5, 0, 1, 2, 3, 4, 5);

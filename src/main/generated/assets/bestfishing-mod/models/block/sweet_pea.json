@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "bestfishing-mod:block/sweet_pea"
+  }
+}

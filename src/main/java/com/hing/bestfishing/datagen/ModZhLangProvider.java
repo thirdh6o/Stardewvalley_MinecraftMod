@@ -20,7 +20,62 @@ public class ModZhLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.farm_group","星露谷物语种植");
         translationBuilder.add("itemGroup.combat_group","星露谷物语战斗");
         translationBuilder.add("itemGroup.music_disc_group","星露谷物语音乐唱片");
+        translationBuilder.add("itemGroup.flower_group","星露谷物语采集");
         translationBuilder.add(ModItems.SHENGYUPIAN, "生鱼片");
+
+                // ... 其他代码保持不变 ...
+
+        // 花卉翻译
+        translationBuilder.add(ModBlocks.BLACKBERRY, "黑莓");
+        translationBuilder.add(ModBlocks.POTTED_BLACKBERRY, "盆栽黑莓");
+        translationBuilder.add(ModBlocks.CAVE_CARROT, "山洞萝卜");
+        translationBuilder.add(ModBlocks.POTTED_CAVE_CARROT, "盆栽山洞萝卜");
+        translationBuilder.add(ModBlocks.CHANTERELLE, "鸡油菌");
+        translationBuilder.add(ModBlocks.POTTED_CHANTERELLE, "盆栽鸡油菌");
+        translationBuilder.add(ModBlocks.COCONUT, "椰子");
+        translationBuilder.add(ModBlocks.POTTED_COCONUT, "盆栽椰子");
+        translationBuilder.add(ModBlocks.COMMON_MUSHROOM, "普通蘑菇");
+        translationBuilder.add(ModBlocks.POTTED_COMMON_MUSHROOM, "盆栽普通蘑菇");
+        translationBuilder.add(ModBlocks.CROCUS, "藏红花");
+        translationBuilder.add(ModBlocks.POTTED_CROCUS, "盆栽藏红花");
+        translationBuilder.add(ModBlocks.CRYSTAL_FRUIT, "水晶果");
+        translationBuilder.add(ModBlocks.POTTED_CRYSTAL_FRUIT, "盆栽水晶果");
+        translationBuilder.add(ModBlocks.DAFFODIL, "黄水仙");
+        translationBuilder.add(ModBlocks.POTTED_DAFFODIL, "盆栽黄水仙");
+        translationBuilder.add(ModBlocks.DANDELION, "蒲公英");
+        translationBuilder.add(ModBlocks.POTTED_DANDELION, "盆栽蒲公英");
+        translationBuilder.add(ModBlocks.FIDDLEHEAD_FERN, "蕨菜");
+        translationBuilder.add(ModBlocks.POTTED_FIDDLEHEAD_FERN, "盆栽蕨菜");
+        translationBuilder.add(ModBlocks.GINGER, "生姜");
+        translationBuilder.add(ModBlocks.POTTED_GINGER, "盆栽生姜");
+        translationBuilder.add(ModBlocks.HAZELNUT, "榛子");
+        translationBuilder.add(ModBlocks.POTTED_HAZELNUT, "盆栽榛子");
+        translationBuilder.add(ModBlocks.HOLLY, "冬青树");
+        translationBuilder.add(ModBlocks.POTTED_HOLLY, "盆栽冬青树");
+        translationBuilder.add(ModBlocks.LEEK, "韭葱");
+        translationBuilder.add(ModBlocks.POTTED_LEEK, "盆栽韭葱");
+        translationBuilder.add(ModBlocks.MOREL, "羊肚菌");
+        translationBuilder.add(ModBlocks.POTTED_MOREL, "盆栽羊肚菌");
+        translationBuilder.add(ModBlocks.PURPLE_MUSHROOM, "紫蘑菇");
+        translationBuilder.add(ModBlocks.POTTED_PURPLE_MUSHROOM, "盆栽紫蘑菇");
+        translationBuilder.add(ModBlocks.RED_MUSHROOM, "红蘑菇");
+        translationBuilder.add(ModBlocks.POTTED_RED_MUSHROOM, "盆栽红蘑菇");
+        translationBuilder.add(ModBlocks.SALMONBERRY, "美洲大树莓");
+        translationBuilder.add(ModBlocks.POTTED_SALMONBERRY, "盆栽美洲大树莓");
+        translationBuilder.add(ModBlocks.SNOW_YAM, "雪山药");
+        translationBuilder.add(ModBlocks.POTTED_SNOW_YAM, "盆栽雪山药");
+        translationBuilder.add(ModBlocks.SPICE_BERRY, "香味浆果");
+        translationBuilder.add(ModBlocks.POTTED_SPICE_BERRY, "盆栽香味浆果");
+        translationBuilder.add(ModBlocks.SPRING_ONION, "大葱");
+        translationBuilder.add(ModBlocks.POTTED_SPRING_ONION, "盆栽大葱");
+        translationBuilder.add(ModBlocks.SWEET_PEA, "甜豌豆");
+        translationBuilder.add(ModBlocks.POTTED_SWEET_PEA, "盆栽甜豌豆");
+        translationBuilder.add(ModBlocks.WILD_HORSERADISH, "野山葵");
+        translationBuilder.add(ModBlocks.POTTED_WILD_HORSERADISH, "盆栽野山葵");
+        translationBuilder.add(ModBlocks.WILD_PLUM, "野莓");
+        translationBuilder.add(ModBlocks.POTTED_WILD_PLUM, "盆栽野莓");
+        translationBuilder.add(ModBlocks.WINTER_ROOT, "冬根");
+        translationBuilder.add(ModBlocks.POTTED_WINTER_ROOT, "盆栽冬根");
 
         //种植
         translationBuilder.add(ModItems.CAULIFLOWER, "花椰菜");
