@@ -24,7 +24,7 @@ public class BestFishingModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModPaintingVariantTagGenerator::new);
 		pack.addProvider(ModWorldGenerator::new);
-
+		pack.addProvider(ModAdvancementProvider::new);
 	}
 
 	@Override
