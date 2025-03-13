@@ -1,11 +1,12 @@
 {
+  "parent": "minecraft:bestfishing-mod/root",
   "criteria": {
-    "got_dirt": {
+    "got_fishing_rod": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:dirt"
+              "minecraft:fishing_rod"
             ]
           }
         ]
@@ -15,23 +16,23 @@
   },
   "display": {
     "announce_to_chat": true,
-    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
     "description": {
-      "text": "获得了一个泥土"
+      "text": "获得一个鱼竿"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:fishing_rod",
+      "nbt": "{Damage:0}"
     },
     "show_toast": true,
     "title": {
-      "text": "星露谷之魂"
+      "text": "钓鱼？"
     }
   },
   "requirements": [
     [
-      "got_dirt"
+      "got_fishing_rod"
     ]
   ],
   "sends_telemetry_event": true

@@ -1,12 +1,14 @@
 {
+  "parent": "minecraft:bestfishing-mod/root",
   "criteria": {
-    "got_dirt": {
+    "got_parsnip": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:dirt"
-            ]
+              "bestfishing-mod:parsnip"
+            ],
+            "count": 15
           }
         ]
       },
@@ -15,23 +17,22 @@
   },
   "display": {
     "announce_to_chat": true,
-    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
     "description": {
-      "text": "获得了一个泥土"
+      "text": "种植十五个防风草"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:dirt"
+      "item": "bestfishing-mod:parsnip"
     },
     "show_toast": true,
     "title": {
-      "text": "星露谷之魂"
+      "text": "梦的开始"
     }
   },
   "requirements": [
     [
-      "got_dirt"
+      "got_parsnip"
     ]
   ],
   "sends_telemetry_event": true
