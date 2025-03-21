@@ -1,12 +1,12 @@
 {
-  "parent": "minecraft:bestfishing-mod/root",
+  "parent": "minecraft:bestfishing-mod/got_fishing_rod",
   "criteria": {
-    "got_fishing_rod": {
+    "got_feihongyu": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:fishing_rod"
+              "bestfishing-mod:feihongyu"
             ]
           }
         ]
@@ -17,22 +17,21 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "获得一个鱼竿"
+      "text": "它住在深海里但是喜欢在温暖的夏天产卵。"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:fishing_rod",
-      "nbt": "{Damage:0}"
+      "item": "bestfishing-mod:feihongyu"
     },
     "show_toast": true,
     "title": {
-      "text": "去找威利？"
+      "text": "绯红鱼？"
     }
   },
   "requirements": [
     [
-      "got_fishing_rod"
+      "got_feihongyu"
     ]
   ],
   "sends_telemetry_event": true

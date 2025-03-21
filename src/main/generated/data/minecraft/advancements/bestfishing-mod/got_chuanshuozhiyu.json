@@ -1,12 +1,12 @@
 {
-  "parent": "minecraft:bestfishing-mod/root",
+  "parent": "minecraft:bestfishing-mod/got_fishing_rod",
   "criteria": {
-    "got_fishing_rod": {
+    "got_chuanshuozhiyu": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:fishing_rod"
+              "bestfishing-mod:chuanshuozhiyu"
             ]
           }
         ]
@@ -17,22 +17,21 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "获得一个鱼竿"
+      "text": "万鱼之王！传说它永远不会被抓到。"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:fishing_rod",
-      "nbt": "{Damage:0}"
+      "item": "bestfishing-mod:chuanshuozhiyu"
     },
     "show_toast": true,
     "title": {
-      "text": "去找威利？"
+      "text": "传说之鱼？"
     }
   },
   "requirements": [
     [
-      "got_fishing_rod"
+      "got_chuanshuozhiyu"
     ]
   ],
   "sends_telemetry_event": true

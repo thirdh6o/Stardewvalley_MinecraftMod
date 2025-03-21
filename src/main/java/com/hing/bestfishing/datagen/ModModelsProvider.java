@@ -110,12 +110,11 @@ public class ModModelsProvider  extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
 
-
-
-
-
-
-
+        //收集包
+        itemModelGenerator.register(ModItems.SPRING_BOOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SUMMER_BOOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AUTUMN_BOOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WINTER_BOOT, Models.GENERATED);
 
 
 

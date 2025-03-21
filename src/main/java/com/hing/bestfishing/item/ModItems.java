@@ -15,6 +15,13 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+        //收集包贴图
+        public static final Item SPRING_BOOT = registerItem("spring_boot", new Item(new Item.Settings()));
+        public static final Item SUMMER_BOOT = registerItem("summer_boot", new Item(new Item.Settings()));
+        public static final Item AUTUMN_BOOT = registerItem("autumn_boot", new Item(new Item.Settings()));
+        public static final Item WINTER_BOOT = registerItem("winter_boot", new Item(new Item.Settings()));      
+
+
 
     //音乐盒
     public static final Item CLOUD_COUNTRY_MUSIC_DISC = registerItems("cloud_country_music_disc",

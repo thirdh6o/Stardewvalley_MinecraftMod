@@ -1,12 +1,12 @@
 {
-  "parent": "minecraft:bestfishing-mod/root",
+  "parent": "minecraft:bestfishing-mod/got_fishing_rod",
   "criteria": {
-    "got_fishing_rod": {
+    "got_ankangyu": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:fishing_rod"
+              "bestfishing-mod:ankangyu"
             ]
           }
         ]
@@ -17,22 +17,21 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "获得一个鱼竿"
+      "text": "它用发光的拟饵来吸引猎物。"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:fishing_rod",
-      "nbt": "{Damage:0}"
+      "item": "bestfishing-mod:ankangyu"
     },
     "show_toast": true,
     "title": {
-      "text": "去找威利？"
+      "text": "𩽾𩾌鱼？"
     }
   },
   "requirements": [
     [
-      "got_fishing_rod"
+      "got_ankangyu"
     ]
   ],
   "sends_telemetry_event": true

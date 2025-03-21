@@ -1,0 +1,83 @@
+{
+  "parent": "minecraft:bestfishing-mod/root",
+  "criteria": {
+    "got_daffodil": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bestfishing-mod:daffodil"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_dandelion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bestfishing-mod:dandelion"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_leek": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bestfishing-mod:leek"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_wild_horseradish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bestfishing-mod:wild_horseradish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "春天是最好的季节！"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bestfishing-mod:wild_horseradish"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "春季采集收集包！"
+    }
+  },
+  "requirements": [
+    [
+      "got_wild_horseradish"
+    ],
+    [
+      "got_daffodil"
+    ],
+    [
+      "got_leek"
+    ],
+    [
+      "got_dandelion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
