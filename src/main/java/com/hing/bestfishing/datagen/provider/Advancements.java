@@ -6,6 +6,7 @@ import com.hing.bestfishing.item.ModItems;
 
 import net.minecraft.advancement.Advancement;
 import net.minecraft.advancement.AdvancementFrame;
+import net.minecraft.advancement.AdvancementRewards;
 import net.minecraft.advancement.criterion.InventoryChangedCriterion;
 import net.minecraft.item.Items;
 import net.minecraft.text.Text;
@@ -55,8 +56,8 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
     Advancement gotFeiHongYu = Advancement.Builder.create().parent(gotFishingRod)
             .display(
              ModItems.CHUANSHUOZHIYU,
-             Text.literal("传说之鱼"),
-             Text.literal("获得所有传说之鱼以及其二代"),
+             Text.literal("传说鱼类"),
+             Text.literal("获得所有传说鱼类"),
              null,
              AdvancementFrame.CHALLENGE,
              true,
@@ -65,7 +66,39 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
 
          )
         .criterion("got_feihongyu", InventoryChangedCriterion.Conditions.items(ModItems.FEIHONGYU))
+        .criterion("got_ankangyu", InventoryChangedCriterion.Conditions.items(ModItems.ANKANGYU))
+        .criterion("got_chuanshuozhiyu", InventoryChangedCriterion.Conditions.items(ModItems.CHUANSHUOZHIYU))
+        .criterion("got_bingchuanyu", InventoryChangedCriterion.Conditions.items(ModItems.BINGCHUANYU))
+        .criterion("got_bianzhongliyu", InventoryChangedCriterion.Conditions.items(ModItems.BIANZHONGLIYU))
+        .rewards(AdvancementRewards.Builder.loot(new Identifier(BestFishingMod.MOD_ID, "chuanshuozhiyuerdai")))   //REWARDS 尝试
+
         .build(consumer, BestFishingMod.MOD_ID + "/got_feihongyu");
+
+
+        Advancement gotChuanshuozhiyu = Advancement.Builder.create().parent(gotFishingRod)
+               .display(
+                ModItems.CHUANSHUOZHIYUERDAI,
+                Text.literal("传说鱼类二代"),
+                Text.literal("获得传说鱼类二代"),
+                null,
+                AdvancementFrame.CHALLENGE,
+                true,
+                true,
+                false
+
+            )
+         .criterion("got_chuanshuozhiyuerdai", InventoryChangedCriterion.Conditions.items(ModItems.CHUANSHUOZHIYUERDAI))
+         .criterion("got_feihongyuzhizi", InventoryChangedCriterion.Conditions.items(ModItems.FEIHONGYUZHIZI))
+         .criterion("got_cigankangyu", InventoryChangedCriterion.Conditions.items(ModItems.CIANKANGYU))
+         .criterion("got_xiaobingchuanyu", InventoryChangedCriterion.Conditions.items(ModItems.XIAOBINGCHUANYU))
+         .criterion("got_fangshexingliyu", InventoryChangedCriterion.Conditions.items(ModItems.FANGSHEXINGLIYU))
+         .build(consumer, BestFishingMod.MOD_ID + "/got_chuanshuozhiyuerdai");
+
+
+
+
+
+
 
 
     Advancement got_Spring = Advancement.Builder.create().parent(rootAdvancement)
@@ -84,6 +117,7 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
      .criterion("got_daffodil", InventoryChangedCriterion.Conditions.items(ModBlocks.DAFFODIL))
      .criterion("got_leek", InventoryChangedCriterion.Conditions.items(ModBlocks.LEEK))
      .criterion("got_dandelion", InventoryChangedCriterion.Conditions.items(ModBlocks.DANDELION))
+     .rewards(AdvancementRewards.Builder.loot(new Identifier(BestFishingMod.MOD_ID, "spring_boot")))
      .build(consumer, BestFishingMod.MOD_ID + "/got_spring");
 
 

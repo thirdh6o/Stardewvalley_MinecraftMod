@@ -1,48 +1,60 @@
 {
-  "parent": "minecraft:bestfishing-mod/root",
+  "parent": "minecraft:bestfishing-mod/got_fishing_rod",
   "criteria": {
-    "got_daffodil": {
+    "got_chuanshuozhiyuerdai": {
       "conditions": {
         "items": [
           {
             "items": [
-              "bestfishing-mod:daffodil"
+              "bestfishing-mod:chuanshuozhiyuerdai"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "got_dandelion": {
+    "got_cigankangyu": {
       "conditions": {
         "items": [
           {
             "items": [
-              "bestfishing-mod:dandelion"
+              "bestfishing-mod:ciankangyu"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "got_leek": {
+    "got_fangshexingliyu": {
       "conditions": {
         "items": [
           {
             "items": [
-              "bestfishing-mod:leek"
+              "bestfishing-mod:fangshexingliyu"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "got_wild_horseradish": {
+    "got_feihongyuzhizi": {
       "conditions": {
         "items": [
           {
             "items": [
-              "bestfishing-mod:wild_horseradish"
+              "bestfishing-mod:feihongyuzhizi"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_xiaobingchuanyu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bestfishing-mod:xiaobingchuanyu"
             ]
           }
         ]
@@ -53,36 +65,34 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "收集野山葵，韭葱，黄水仙，蒲公英"
+      "text": "获得传说鱼类二代"
     },
-    "frame": "task",
+    "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "bestfishing-mod:spring_boot"
+      "item": "bestfishing-mod:chuanshuozhiyuerdai"
     },
     "show_toast": true,
     "title": {
-      "text": "春季采集收集包！"
+      "text": "传说鱼类二代"
     }
   },
   "requirements": [
     [
-      "got_wild_horseradish"
+      "got_chuanshuozhiyuerdai"
     ],
     [
-      "got_daffodil"
+      "got_feihongyuzhizi"
     ],
     [
-      "got_leek"
+      "got_cigankangyu"
     ],
     [
-      "got_dandelion"
+      "got_xiaobingchuanyu"
+    ],
+    [
+      "got_fangshexingliyu"
     ]
   ],
-  "rewards": {
-    "loot": [
-      "bestfishing-mod:spring_boot"
-    ]
-  },
   "sends_telemetry_event": true
 }

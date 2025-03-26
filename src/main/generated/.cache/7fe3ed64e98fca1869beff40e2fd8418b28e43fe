@@ -1,7 +1,6 @@
-// 1.20	2025-03-14T19:40:04.6466851	BestFishing-Mod/Advancements
-853bd820a5b8830d0172f8f9c6d0a398de2927f4 data\minecraft\advancements\bestfishing-mod\got_ankangyu.json
-356f463e482e64b7b71b8015943e24e8bacb548a data\minecraft\advancements\bestfishing-mod\got_chuanshuozhiyu.json
-129478f68d239e8351d121bd3135fd726bdb0792 data\minecraft\advancements\bestfishing-mod\got_spring.json
-81369d2eb29c94d4af64cfce572d07a4a5ceeaa2 data\minecraft\advancements\bestfishing-mod\got_feihongyu.json
+// 1.20	2025-03-26T16:02:07.0549923	BestFishing-Mod/Advancements
+a5bb610e77d91433cd7ddbc88d12099f8504459c data\minecraft\advancements\bestfishing-mod\got_spring.json
+6488841d3b8b4051c33961dd140dd49bade4e827 data\minecraft\advancements\bestfishing-mod\got_feihongyu.json
 02c07c0e60191d782ed4f8866e3ded3e9c0ad72b data\minecraft\advancements\bestfishing-mod\got_fishing_rod.json
-39a4f11c1408b780724bc1bb221444f61319dc9f data\minecraft\advancements\bestfishing-mod\root.json
+bfdd83a7be1ee987df1089eb373ab092537e99c3 data\minecraft\advancements\bestfishing-mod\root.json
+ca449d958868b07418606327bc368fecd727e20e data\minecraft\advancements\bestfishing-mod\got_chuanshuozhiyuerdai.json

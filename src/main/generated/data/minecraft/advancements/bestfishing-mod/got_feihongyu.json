@@ -1,6 +1,54 @@
 {
   "parent": "minecraft:bestfishing-mod/got_fishing_rod",
   "criteria": {
+    "got_ankangyu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bestfishing-mod:ankangyu"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_bianzhongliyu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bestfishing-mod:bianzhongliyu"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_bingchuanyu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bestfishing-mod:bingchuanyu"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_chuanshuozhiyu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bestfishing-mod:chuanshuozhiyu"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "got_feihongyu": {
       "conditions": {
         "items": [
@@ -17,22 +65,39 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "它住在深海里但是喜欢在温暖的夏天产卵。"
+      "text": "获得所有传说鱼类"
     },
-    "frame": "task",
+    "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "bestfishing-mod:feihongyu"
+      "item": "bestfishing-mod:chuanshuozhiyu"
     },
     "show_toast": true,
     "title": {
-      "text": "绯红鱼？"
+      "text": "传说鱼类"
     }
   },
   "requirements": [
     [
       "got_feihongyu"
+    ],
+    [
+      "got_ankangyu"
+    ],
+    [
+      "got_chuanshuozhiyu"
+    ],
+    [
+      "got_bingchuanyu"
+    ],
+    [
+      "got_bianzhongliyu"
     ]
   ],
+  "rewards": {
+    "loot": [
+      "bestfishing-mod:chuanshuozhiyuerdai"
+    ]
+  },
   "sends_telemetry_event": true
 }
