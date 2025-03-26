@@ -94,10 +94,5 @@
       "got_bianzhongliyu"
     ]
   ],
-  "rewards": {
-    "loot": [
-      "bestfishing-mod:chuanshuozhiyuerdai"
-    ]
-  },
   "sends_telemetry_event": true
 }

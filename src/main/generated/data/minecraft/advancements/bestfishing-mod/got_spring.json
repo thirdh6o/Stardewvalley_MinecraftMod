@@ -81,7 +81,7 @@
   ],
   "rewards": {
     "loot": [
-      "bestfishing-mod:spring_boot"
+      "minecraft:spring_boot"
     ]
   },
   "sends_telemetry_event": true

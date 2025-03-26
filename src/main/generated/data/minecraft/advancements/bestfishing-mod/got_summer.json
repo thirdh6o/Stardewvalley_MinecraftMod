@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:bestfishing-mod/got_spring",
+  "criteria": {
+    "got_wild_horseradish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bestfishing-mod:wild_horseradish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "收集柠檬，柠檬草，柠檬花，柠檬片"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bestfishing-mod:summer_boot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "夏季采集收集包！"
+    }
+  },
+  "requirements": [
+    [
+      "got_wild_horseradish"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "minecraft:summer_boot"
+    ]
+  },
+  "sends_telemetry_event": true
+}

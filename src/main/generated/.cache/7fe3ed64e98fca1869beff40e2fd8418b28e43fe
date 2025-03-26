@@ -1,6 +1,9 @@
-// 1.20	2025-03-26T16:02:07.0549923	BestFishing-Mod/Advancements
-a5bb610e77d91433cd7ddbc88d12099f8504459c data\minecraft\advancements\bestfishing-mod\got_spring.json
-6488841d3b8b4051c33961dd140dd49bade4e827 data\minecraft\advancements\bestfishing-mod\got_feihongyu.json
+// 1.20	2025-03-26T17:24:21.525419	BestFishing-Mod/Advancements
+7db0c59590a432cf05fb6cc752301d54760878f4 data\minecraft\advancements\bestfishing-mod\got_autumn.json
+fb446245b6da97916ea4cf79ae89d79717d3a912 data\minecraft\advancements\bestfishing-mod\got_winter.json
+ec8dff46d13b5fc39d9675055e8ed15bd86ce789 data\minecraft\advancements\bestfishing-mod\got_spring.json
+1f5ff49632aa69c79297da7bd67c52c3dda2574f data\minecraft\advancements\bestfishing-mod\got_feihongyu.json
 02c07c0e60191d782ed4f8866e3ded3e9c0ad72b data\minecraft\advancements\bestfishing-mod\got_fishing_rod.json
 bfdd83a7be1ee987df1089eb373ab092537e99c3 data\minecraft\advancements\bestfishing-mod\root.json
+b9933b3bc5a0d0df1def6e63e3fe9125f761f40e data\minecraft\advancements\bestfishing-mod\got_summer.json
 ca449d958868b07418606327bc368fecd727e20e data\minecraft\advancements\bestfishing-mod\got_chuanshuozhiyuerdai.json

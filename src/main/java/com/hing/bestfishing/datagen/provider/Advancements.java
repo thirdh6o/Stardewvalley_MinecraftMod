@@ -70,7 +70,7 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
         .criterion("got_chuanshuozhiyu", InventoryChangedCriterion.Conditions.items(ModItems.CHUANSHUOZHIYU))
         .criterion("got_bingchuanyu", InventoryChangedCriterion.Conditions.items(ModItems.BINGCHUANYU))
         .criterion("got_bianzhongliyu", InventoryChangedCriterion.Conditions.items(ModItems.BIANZHONGLIYU))
-        .rewards(AdvancementRewards.Builder.loot(new Identifier(BestFishingMod.MOD_ID, "chuanshuozhiyuerdai")))   //REWARDS 尝试
+        //.rewards(AdvancementRewards.Builder.loot(new Identifier(BestFishingMod.MOD_ID, "chuanshuozhiyuerdai")))   //REWARDS 尝试
 
         .build(consumer, BestFishingMod.MOD_ID + "/got_feihongyu");
 
@@ -95,12 +95,8 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
          .build(consumer, BestFishingMod.MOD_ID + "/got_chuanshuozhiyuerdai");
 
 
-
-
-
-
-
-
+///////////////////////////////////
+/// //收集包
     Advancement got_Spring = Advancement.Builder.create().parent(rootAdvancement)
         .display(
             ModItems.SPRING_BOOT,
@@ -117,16 +113,56 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
      .criterion("got_daffodil", InventoryChangedCriterion.Conditions.items(ModBlocks.DAFFODIL))
      .criterion("got_leek", InventoryChangedCriterion.Conditions.items(ModBlocks.LEEK))
      .criterion("got_dandelion", InventoryChangedCriterion.Conditions.items(ModBlocks.DANDELION))
-     .rewards(AdvancementRewards.Builder.loot(new Identifier(BestFishingMod.MOD_ID, "spring_boot")))
+     .rewards(AdvancementRewards.Builder.loot(new Identifier("minecraft", "spring_boot")))
      .build(consumer, BestFishingMod.MOD_ID + "/got_spring");
 
 
+     Advancement got_Summer = Advancement.Builder.create().parent(got_Spring)
+       .display(
+            ModItems.SUMMER_BOOT,
+            Text.literal("夏季采集收集包！"),
+            Text.literal("收集柠檬，柠檬草，柠檬花，柠檬片"),
+            null,
+            AdvancementFrame.TASK,
+            true,
+            true,
+            false)
+
+        .criterion("got_wild_horseradish", InventoryChangedCriterion.Conditions.items(ModBlocks.WILD_HORSERADISH))
+        .rewards(AdvancementRewards.Builder.loot(new Identifier("minecraft", "summer_boot")))
+        .build(consumer, BestFishingMod.MOD_ID + "/got_summer");
 
 
+      Advancement got_Autumn = Advancement.Builder.create().parent(got_Summer)
+       .display(
+            ModItems.AUTUMN_BOOT,
+            Text.literal("秋季采集收集包！"),
+            Text.literal("收集柠檬片，柠檬草，柠檬花，柠檬片"),
+            null,
+            AdvancementFrame.TASK,
+            true,
+            true,
+            false
+            )
+        .criterion("got_wild_horseradish", InventoryChangedCriterion.Conditions.items(ModBlocks.WILD_HORSERADISH)) 
+        .rewards(AdvancementRewards.Builder.loot(new Identifier("minecraft", "autumn_boot")))
+        .build(consumer, BestFishingMod.MOD_ID + "/got_autumn");
 
 
-
-
+      Advancement got_Winter = Advancement.Builder.create().parent(got_Autumn)
+      .display(
+            ModItems.WINTER_BOOT,
+            Text.literal("冬季采集收集包！"),
+            Text.literal("收集柠檬片，柠檬草，柠檬花，柠檬片"),
+            null,
+            AdvancementFrame.TASK,
+            true, 
+            true,
+            false
+            )
+      .criterion("got_wild_horseradish", InventoryChangedCriterion.Conditions.items(ModBlocks.WILD_HORSERADISH))
+      .rewards(AdvancementRewards.Builder.loot(new Identifier("minecraft", "winter_boot")))
+      .build(consumer, BestFishingMod.MOD_ID + "/got_winter");
 
 
 

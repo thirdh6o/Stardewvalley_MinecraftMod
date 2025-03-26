@@ -28,6 +28,18 @@ public class ModEnLangProvider extends FabricLanguageProvider {
 
                 // ... 其他代码保持不变 ...
 
+
+
+
+
+
+
+
+        // 物品翻译
+        translationBuilder.add(ModItems.SPRING_BOOT, "Spring Boot");
+        translationBuilder.add(ModItems.SUMMER_BOOT, "Summer Boot");
+        translationBuilder.add(ModItems.AUTUMN_BOOT, "Autumn Boot");
+        translationBuilder.add(ModItems.WINTER_BOOT, "Winter Boot");
         // 采集翻译
         translationBuilder.add(ModBlocks.BLACKBERRY, "Blackberry");
         translationBuilder.add(ModBlocks.POTTED_BLACKBERRY, "Potted Blackberry");

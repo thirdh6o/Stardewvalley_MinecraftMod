@@ -18,7 +18,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
 
 
-
         /* 这里的作物掉落物是通过LootCondition来判断的
            倘若作物的生长阶段为5，那么掉落的物品为ModItems.STRAWBERRY，否则掉落的物品为ModItems.STRAWBERRY_SEEDS
            不带种子的作物可以参考POTATO、CARROT等作物的掉落物
