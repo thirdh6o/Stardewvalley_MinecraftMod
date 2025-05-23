@@ -21,6 +21,15 @@ public class ModItems {
         public static final Item AUTUMN_BOOT = registerItem("autumn_boot", new Item(new Item.Settings()));
         public static final Item WINTER_BOOT = registerItem("winter_boot", new Item(new Item.Settings()));      
 
+        public static final Item SPRING_FARM = registerItem("spring_farm", new Item(new Item.Settings()));
+        public static final Item SUMMER_FARM = registerItem("summer_farm", new Item(new Item.Settings()));
+        public static final Item AUTUMN_FARM = registerItem("autumn_farm", new Item(new Item.Settings()));
+
+        public static final Item LAKE_FISH = registerItem("lake_fish", new Item(new Item.Settings()));
+        public static final Item RIVER_FISH = registerItem("river_fish", new Item(new Item.Settings()));
+        public static final Item SEA_FISH = registerItem("sea_fish", new Item(new Item.Settings()));
+        public static final Item NIGHT_FISH = registerItem("night_fish", new Item(new Item.Settings()));
+
 
 
     //音乐盒

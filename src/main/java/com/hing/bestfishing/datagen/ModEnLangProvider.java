@@ -40,6 +40,21 @@ public class ModEnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.SUMMER_BOOT, "Summer Boot");
         translationBuilder.add(ModItems.AUTUMN_BOOT, "Autumn Boot");
         translationBuilder.add(ModItems.WINTER_BOOT, "Winter Boot");
+
+        translationBuilder.add(ModItems.SPRING_FARM, "Spring Farm");
+        translationBuilder.add(ModItems.SUMMER_FARM, "Summer Farm");
+        translationBuilder.add(ModItems.AUTUMN_FARM, "Autumn Farm");
+        
+        translationBuilder.add(ModItems.LAKE_FISH, "Lake Fish");
+        translationBuilder.add(ModItems.RIVER_FISH, "River Fish");
+        translationBuilder.add(ModItems.SEA_FISH, "Sea Fish");
+        translationBuilder.add(ModItems.NIGHT_FISH, "Night Fish");
+
+
+
+
+
+
         // 采集翻译
         translationBuilder.add(ModBlocks.BLACKBERRY, "Blackberry");
         translationBuilder.add(ModBlocks.POTTED_BLACKBERRY, "Potted Blackberry");

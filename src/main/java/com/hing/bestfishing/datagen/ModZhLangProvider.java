@@ -32,6 +32,19 @@ public class ModZhLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.SUMMER_BOOT, "夏季采集收集包");
         translationBuilder.add(ModItems.AUTUMN_BOOT, "秋季采集收集包");
         translationBuilder.add(ModItems.WINTER_BOOT, "冬季采集收集包");
+
+
+
+        translationBuilder.add(ModItems.SPRING_FARM, "春季种植收集包");
+        translationBuilder.add(ModItems.SUMMER_FARM, "夏季种植收集包");
+        translationBuilder.add(ModItems.AUTUMN_FARM, "秋季种植收集包");
+
+        translationBuilder.add(ModItems.LAKE_FISH, "湖鱼收集包");
+        translationBuilder.add(ModItems.RIVER_FISH, "河鱼收集包");
+        translationBuilder.add(ModItems.SEA_FISH, "海鱼收集包");
+        translationBuilder.add(ModItems.NIGHT_FISH, "夜间垂钓收集包");
+    
+        
         // 花卉翻译
         translationBuilder.add(ModBlocks.BLACKBERRY, "黑莓");
         translationBuilder.add(ModBlocks.POTTED_BLACKBERRY, "盆栽黑莓");

@@ -121,14 +121,16 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
        .display(
             ModItems.SUMMER_BOOT,
             Text.literal("夏季采集收集包！"),
-            Text.literal("收集柠檬，柠檬草，柠檬花，柠檬片"),
+            Text.literal("收集葡萄，香味浆果，甜豌豆"),
             null,
             AdvancementFrame.TASK,
             true,
             true,
             false)
 
-        .criterion("got_wild_horseradish", InventoryChangedCriterion.Conditions.items(ModBlocks.WILD_HORSERADISH))
+        .criterion("got_grape", InventoryChangedCriterion.Conditions.items(ModBlocks.GRAPE))
+        .criterion("got_spice_berry", InventoryChangedCriterion.Conditions.items(ModBlocks.SPICE_BERRY))    
+        .criterion("got_sweet_pea", InventoryChangedCriterion.Conditions.items(ModBlocks.SWEET_PEA))
         .rewards(AdvancementRewards.Builder.loot(new Identifier("minecraft", "summer_boot")))
         .build(consumer, BestFishingMod.MOD_ID + "/got_summer");
 
@@ -137,14 +139,17 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
        .display(
             ModItems.AUTUMN_BOOT,
             Text.literal("秋季采集收集包！"),
-            Text.literal("收集柠檬片，柠檬草，柠檬花，柠檬片"),
+            Text.literal("收集普通蘑菇，野梅，榛子，黑莓"),
             null,
             AdvancementFrame.TASK,
             true,
             true,
             false
             )
-        .criterion("got_wild_horseradish", InventoryChangedCriterion.Conditions.items(ModBlocks.WILD_HORSERADISH)) 
+        .criterion("got_common_mushrooom", InventoryChangedCriterion.Conditions.items(ModBlocks.COMMON_MUSHROOM)) 
+        .criterion("got_wild_plum", InventoryChangedCriterion.Conditions.items(ModBlocks.WILD_PLUM))
+        .criterion("got_hazelnut", InventoryChangedCriterion.Conditions.items(ModBlocks.HAZELNUT))
+        .criterion("got_blackberry", InventoryChangedCriterion.Conditions.items(ModBlocks.BLACKBERRY))
         .rewards(AdvancementRewards.Builder.loot(new Identifier("minecraft", "autumn_boot")))
         .build(consumer, BestFishingMod.MOD_ID + "/got_autumn");
 
@@ -153,24 +158,54 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
       .display(
             ModItems.WINTER_BOOT,
             Text.literal("冬季采集收集包！"),
-            Text.literal("收集柠檬片，柠檬草，柠檬花，柠檬片"),
+            Text.literal("收集冬根，水晶果，雪山药，番红花"),
             null,
             AdvancementFrame.TASK,
             true, 
             true,
             false
             )
-      .criterion("got_wild_horseradish", InventoryChangedCriterion.Conditions.items(ModBlocks.WILD_HORSERADISH))
+      .criterion("got_winter_root", InventoryChangedCriterion.Conditions.items(ModBlocks.WINTER_ROOT))
+      .criterion("got_crystal_fruit", InventoryChangedCriterion.Conditions.items(ModBlocks.CRYSTAL_FRUIT))
+      .criterion("got_snow_yam", InventoryChangedCriterion.Conditions.items(ModBlocks.SNOW_YAM))
+      .criterion("got_crocus", InventoryChangedCriterion.Conditions.items(ModBlocks.CROCUS))
       .rewards(AdvancementRewards.Builder.loot(new Identifier("minecraft", "winter_boot")))
       .build(consumer, BestFishingMod.MOD_ID + "/got_winter");
 
+        
 
+      Advancement farm_SPRING = Advancement.Builder.create().parent(rootAdvancement)
+     .display(
+         ModItems.SPRING_FARM,
+         Text.literal("春季作物收集包！"),
+         Text.literal("收获防风草，青豆，花椰菜，土豆"),
+         null,
+         AdvancementFrame.TASK,
+         true,
+         true,
+         false
+     )
+     .criterion("got_parsnip", InventoryChangedCriterion.Conditions.items(ModBlocks.PARSNIP))
+     .criterion("got_green_bean", InventoryChangedCriterion.Conditions.items(ModBlocks.GREEN_BEAN))
+     .criterion("got_cauliflower", InventoryChangedCriterion.Conditions.items(ModBlocks.CAULIFLOWER))
+     .criterion("got_potato", InventoryChangedCriterion.Conditions.items(ModBlocks.POTATO))
+     .rewards(AdvancementRewards.Builder.loot(new Identifier("minecraft", "spring_farm")))
+     .build(consumer, BestFishingMod.MOD_ID + "/farm_spring");
 
+// TODO: 完成到夏季作物收集包
 
-
-
-
-
+    Advancement farm_SUMMER = Advancement.Builder.create().parent(farm_SPRING)
+    .display(
+         ModItems.SUMMER_FARM,
+         Text.literal("夏季作物收集包！"),
+         Text.literal("收获番茄，玉米，茄子，南瓜"),
+         null,
+         AdvancementFrame.TASK,
+         true,
+         true,
+         false
+     )
+     .build(consumer, BestFishingMod.MOD_ID + "/farm_summer");
 
 
 

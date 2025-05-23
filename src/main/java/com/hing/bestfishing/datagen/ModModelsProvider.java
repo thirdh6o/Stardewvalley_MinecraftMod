@@ -116,6 +116,16 @@ public class ModModelsProvider  extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AUTUMN_BOOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.WINTER_BOOT, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.SPRING_FARM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SUMMER_FARM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AUTUMN_FARM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WINTER_FARM, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.LAKE_FISH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RIVER_FISH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SEA_FISH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NIGHT_FISH, Models.GENERATED);
+
 
 
 
